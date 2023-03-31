@@ -1,0 +1,14 @@
+1) use OBER (template) as inspiration.
+2) currently using html, css, js, jquery and bootstrap.
+3) divisions:
+	a) name, intro, no picture
+	b) about me
+	c) technologies
+	d) my projects
+	e) my blog (may be optional)
+	f) contact me (include picture)
+	g) footer (copyright)
+4) use physics as the theme for side part graphics.
+5) dark-light mode convertor.
+6) central large circle for intro section (can be animated).
+7) toggle nave bar menue for responsiveness (contain general social links).
