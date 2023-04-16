@@ -1,0 +1,890 @@
+body {
+    zoom: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ................NAVLINKS...................... */
+.base-links-container {
+    background-color: #222a35;
+    height: 380px;
+    padding: 5px;
+}
+
+.links-container {
+    display: inline-block;
+    padding: 25px 5px 5px 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.links-container div {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+.links-container div a {
+    color: #fbffff;
+    font-size: 1.4rem;
+}
+
+/* ................RELATIVE INTRO ABSOLUTE...................... */
+.base-main-container {
+    background-color: #171e28;
+    height: 500px;
+    position: relative;
+}
+
+.base-main {
+    padding: 5px;
+    position: absolute;
+    top: -340px;
+    width: 100%;
+}
+
+.main-circle {
+    border-radius: 50%;
+    border: #8e929b 1px solid;
+    height: 630px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 210px;
+    text-align: center;
+    width: 630px;
+}
+
+.circle-heading {
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 5px;
+    width: 500px;
+
+}
+
+.circle-heading h6 {
+    color: #8e929b;
+}
+
+.circle-heading h1 {
+    color: #fffffd;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+.circle-para {
+    color: #8e929b;
+    margin: auto;
+    padding: 5px;
+    width: 480px;
+}
+
+.main-extended {
+    padding: 5px;
+}
+
+.main-extended .row {
+    padding: 5px;
+}
+
+.main-extended .col {
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+}
+
+.main-extended h6 {
+    color: #8e929b;
+}
+
+.main-extended h4 {
+    color: #fffffd;
+}
+
+/* ................ABOUT ME.................. */
+
+.base-about-container {
+    background-color: #171e28;
+    overflow: hidden;
+    padding: 70px 5px 70px 5px;
+}
+
+.base-about {
+    margin: auto;
+    padding: 5px;
+    width: 1000px;
+}
+
+.about-heading {
+    color: #fffffd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.about-heading h1 {
+    margin-bottom: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+.about-content {
+    padding: 5px;
+}
+
+.about-content .row {
+    padding: 5px;
+}
+
+.about-content .row .col-2 {
+    text-align: right;
+    width: 150px;
+}
+
+.about-content .row .col-1 {
+    padding: 5px;
+    width: 45px;
+}
+
+.about-content-divider {
+    background-color: #8e929b;
+    height: 100%;
+    margin: auto;
+    width: 0.5px;
+}
+
+.about-content .row .col-12 {
+    padding: 5px;
+}
+
+.about-content-note .col-12 {
+    margin-bottom: 10px;
+}
+
+.about-content-note-icon i {
+    color: #8e929b;
+}
+
+.about-content-note-text {
+    color: #fffffd;
+}
+
+.about-content-note-text h3 {
+    margin-bottom: 0px;
+}
+
+.about-content-note-text h5 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.about-content-intro-text {
+    color: #8e929b;
+    padding: 5px;
+}
+
+.about-content-intro-text strong {
+    color: #fffffd;
+    font-weight: 400;
+}
+
+.about-content-intro-signature {
+    padding: 5px;
+}
+
+.about-content-intro-signature img {
+    filter: invert(50%);
+    padding: 5px;
+    width: 155px;
+}
+
+.about-graphics-one {
+    position: relative;
+}
+
+.about-graphics-one i {
+    color: #222a35;
+    font-size: 8rem;
+    position: absolute;
+    left: -140px;
+    top: -45px;
+}
+
+/* ..................RESUME.................... */
+
+.base-resume-container {
+    background-color: #222a35;
+    overflow: hidden;
+    padding: 70px 5px 70px 5px;
+}
+
+.base-resume {
+    margin: auto;
+    padding: 5px;
+    width: 1000px;
+}
+
+.resume-heading {
+    color: #fffffd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.resume-heading h1 {
+    margin-bottom: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+.resume-content {
+    padding: 5px;
+}
+
+.resume-content .row {
+    padding: 5px;
+}
+
+.resume-content .row .col-2 {
+    text-align: right;
+    width: 150px;
+}
+
+.resume-content .row .col-1 {
+    padding: 5px;
+    width: 45px;
+}
+
+.resume-content-divider {
+    background-color: #8e929b;
+    height: 100%;
+    margin: auto;
+    width: 0.5px;
+}
+
+.resume-content .row .col-12 {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.resume-content-note-icon i {
+    color: #8e929b;
+}
+
+.resume-content-note-text {
+    color: #fffffd;
+}
+
+.resume-content-note-text h3 {
+    margin-bottom: 0px;
+}
+
+.resume-content-note-text h5 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.resume-content-note-text p {
+    color: #8e929b;
+}
+
+.resume-content-intro-text {
+    color: #8e929b;
+    padding: 5px;
+}
+
+.resume-content-skills-text {
+    color: #b9bcc1;
+}
+
+.resume-content-skills-heading {
+    padding: 5px;
+    color: #fffffd;
+}
+
+.resume-content-skills-text .row {
+    width: 100%;
+    margin: auto;
+}
+
+.resume-content-skills-dot {
+    height: 12px;
+    width: 12px;
+    margin: 0px 5px;
+    background-color: #171e28;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.resume-content-skills-dot-purple {
+    background-color: #666cdb;
+}
+
+.resume-content-skills-dot-orange {
+    background-color: #ff805a;
+}
+
+.resume-content-skills-dot-blue {
+    background-color: #3bafc4;
+}
+
+.resume-content-skills-dot-grey {
+    background-color: #b8d1e7;
+}
+
+.resume-content-skills-dot-yellow {
+    background-color: #fed041;
+}
+
+.resume-content .col-9 .row .row {
+    width: 100%;
+    margin: auto;
+}
+
+.resume-content-general-text {
+    color: #6f7680;
+}
+
+.resume-content-general-text h3 {
+    color: #fffffd;
+}
+
+.resume-content-general-text h5 {
+    color: #b9bcc1;
+}
+
+.resume-content-general-text .row,
+.resume-content-general-text .col-12,
+.resume-content-general-text .col-6 {
+    padding: 0px !important;
+}
+
+.resume-education-text {
+    margin: 10px 0px;
+}
+
+.resume-education-text .row {
+    width: 100%;
+    margin: auto;
+}
+
+.resume-education-text .row .col-12 {
+    margin: 10px 0px;
+}
+
+.resume-cocurri-text {
+    margin: 10px 0px;
+}
+
+.resume-cocurri-text .row {
+    width: 100%;
+    margin: auto;
+}
+
+.resume-cocurri-text .row .col-12 {
+    margin: 10px 0px;
+}
+
+.resume-curricular-text {
+    margin: 10px 0px;
+}
+
+.resume-curricular-text .row {
+    width: 100%;
+    margin: auto;
+}
+
+.resume-curricular-text .row .col-12 {
+    margin: 10px 0px;
+}
+
+.resume-experience-text {
+    margin: 10px 0px;
+}
+
+.resume-experience-text .row {
+    width: 100%;
+    margin: auto;
+}
+
+.resume-experience-text .row .col-12 {
+    margin: 10px 0px;
+}
+
+.resume-download-button {
+    margin-bottom: 30px;
+}
+
+.resume-download-button button {
+    background-color: #ff8059;
+    border: none;
+    width: 200px;
+}
+
+.resume-download-button button:hover {
+    background-color: #ff8059;
+}
+
+.resume-graphics-one {
+    position: relative;
+}
+
+.resume-graphics-one i {
+    color: #171e28;
+    font-size: 8rem;
+    position: absolute;
+    right: -140px;
+    top: -55px;
+    rotate: 342deg;
+}
+
+/* ..................PROJECTS.................... */
+
+.base-projects-container {
+    background-color: #171e28;
+    overflow: hidden;
+    padding: 70px 5px 70px 5px;
+}
+
+.base-projects {
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 5px;
+    width: 1000px;
+}
+
+.projects-heading {
+    color: #fffffd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.projects-heading h1 {
+    margin-bottom: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+.projects-content {
+    padding: 5px;
+}
+
+.projects-content .row {
+    padding: 5px;
+}
+
+.projects-content .row .col-2 {
+    width: 150px;
+}
+
+.projects-content .row .col-1 {
+    padding: 5px;
+    width: 45px;
+}
+
+.projects-content-divider {
+    background-color: #8e929b;
+    height: 100%;
+    margin: auto;
+    width: 0.5px;
+}
+
+.projects-content .row .col-12 {
+    padding: 5px;
+}
+
+.projects-content-main {
+    color: #fffffd;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.projects-content-description {
+    color: #8e929b;
+    padding: 5px;
+}
+
+.projects-showcase {
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 5px;
+    width: 1500px;
+}
+
+.projects-showcase .row {
+    margin: auto;
+    padding: 5px;
+}
+
+.projects-showcase-indiv-proj {
+    margin-top: 110px !important;
+}
+
+.projects-showcase .row .col-3,
+.projects-showcase .row .col-6,
+.projects-showcase .row .col-3 {
+    padding: 5px;
+}
+
+.projects-showcase-indiv .col-12 {
+    margin-bottom: 100px;
+    padding: 5px;
+}
+
+.projects-showcase-indiv h5 {
+    color: #b9bcc1;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.projects-showcase-indiv h6 {
+    color: #6f7680;
+    font-weight: 400;
+}
+
+.projects-showcase-indiv-left {
+    text-align: left;
+}
+
+.projects-showcase-indiv-right {
+    text-align: right;
+}
+
+.projects-showcase-thumbnail-img {
+    margin-bottom: 40px;
+}
+
+.projects-showcase-thumbnail-img img {
+    border-radius: 10px;
+}
+
+.projects-showcase-thumbnail-text h5 {
+    color: #fffffd;
+    margin-bottom: 15px;
+}
+
+.projects-showcase-thumbnail-text h6 {
+    color: #8e929b;
+}
+
+.projects-showcase-indiv-proj3 {
+    display: none;
+}
+
+.projects-load {
+    margin: auto;
+    margin-bottom: 80px;
+    padding: 5px;
+    width: 1000px;
+}
+
+.projects-load-button {
+    padding: 5px;
+    text-align: center;
+}
+
+.projects-load-button button {
+    background-color: #ff8059;
+    border: none;
+    width: 200px;
+}
+
+.projects-load-button button:hover {
+    background-color: #ff8059;
+}
+
+.projects-graphics {
+    margin: auto;
+    width: 1000px;
+}
+
+.projects-graphics-one {
+    position: relative;
+}
+
+.projects-graphics-one i {
+    color: #222a35;
+    font-size: 8rem;
+    position: absolute;
+    left: -140px;
+    top: -55px;
+}
+
+/* ................BLOG.................. */
+
+.base-blog-container {
+    background-color: #222a35;
+    padding: 70px 5px 70px 5px;
+}
+
+.base-blog {
+    margin: auto;
+    padding: 5px;
+    width: 1000px;
+}
+
+.blog-heading {
+    color: #fffffd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.blog-heading h1 {
+    margin-bottom: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+.blog-content {
+    padding: 5px;
+}
+
+.blog-content-header {
+    margin-bottom: 100px;
+}
+
+.blog-content .row {
+    padding: 5px;
+}
+
+.blog-content .row .col-2 {
+    text-align: right;
+    width: 150px;
+}
+
+.blog-content .row .col-1 {
+    padding: 5px;
+    width: 45px;
+}
+
+.blog-content-divider {
+    background-color: #8e929b;
+    height: 100%;
+    margin: auto;
+    width: 0.5px;
+}
+
+.blog-content-main {
+    color: #fffffd;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.blog-content-description {
+    color: #8e929b;
+    padding: 5px;
+}
+
+.blog-content-indiv {
+    margin-bottom: 50px;
+}
+
+.blog-content-indiv-2 {
+    border: #ff8059 1px solid;
+    border-radius: 10px;
+}
+
+.blog-thumbnail-note {
+    padding: 5px;
+}
+
+.blog-thumbnail-note h5 {
+    color: #b9bcc1;
+}
+
+.blog-thumbnail-note p {
+    color: #6f7680;
+}
+
+.blog-thumbnail-blog h3 {
+    color: #b9bcc1;
+}
+
+.blog-thumbnail-blog p {
+    color: #6f7680;
+}
+
+.blog-thumbnail-blog a {
+    color: #ff8059;
+}
+
+.blog-graphics-one {
+    position: relative;
+}
+
+.blog-graphics-one i {
+    color: #222a35;
+    font-size: 8rem;
+    position: absolute;
+    right: -140px;
+    top: 70px;
+    rotate: 180deg;
+}
+
+/* ................CONTACT.................. */
+
+.base-contact-container {
+    background-color: #171e28;
+    overflow: hidden;
+    padding: 70px 5px 70px 5px;
+}
+
+.base-contact {
+    margin: auto;
+    padding: 5px;
+    width: 1000px;
+}
+
+.contact-heading {
+    color: #fffffd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.contact-heading h1 {
+    margin-bottom: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+.contact-content {
+    padding: 5px;
+}
+
+.contact-content .row {
+    padding: 5px;
+}
+
+.contact-content .col-12 {
+    margin-bottom: 15px;
+}
+
+.contact-content .row .col-2 {
+    text-align: right;
+    width: 150px;
+}
+
+.contact-content .row .col-1 {
+    padding: 5px;
+    width: 45px;
+}
+
+.contact-content-divider {
+    background-color: #8e929b;
+    height: 100%;
+    margin: auto;
+    width: 0.5px;
+}
+
+.contact-content .row .col-12 {
+    padding: 5px;
+}
+
+.contact-note-icon i {
+    color: #8e929b;
+    font-size: 1.3rem;
+}
+
+.contact-form-container p {
+    color: #8e929b;
+    padding: 5px;
+}
+
+.contact-form-inputs {
+    margin-bottom: 2rem!important;
+}
+
+.contact-form-assure {
+    color: #6f7680;
+}
+
+/* Removes the form bug from bootstrap */
+.form-floating:not(.form-control:disabled)::before {
+    display: none;
+}
+
+.contact-form-container .form-floating input,
+.contact-form-container .form-floating textarea {
+    background-color: transparent;
+    border-width: 1px;
+    border-color: #9f9f9f;
+    color: #fffffd;
+    padding-top: 35px !important;
+}
+
+.contact-form-textarea textarea{
+    resize: none;
+    padding-left: 13px!important;
+}
+
+.contact-form-container .form-floating label {
+    color: #b9bcc1;
+}
+
+.contact-form-container .form-floating input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fffffd;
+}
+
+.contact-form-textarea label {
+    opacity: unset !important;
+    padding-top: 8px;
+}
+
+.contact-form-textarea .hide-text {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #171e28;
+}
+
+/* Customizing the scrollbar */
+textarea::-webkit-scrollbar {
+    width: 8px;
+    /* width of the scrollbar */
+    background-color: #00000000;
+    /* background color of the scrollbar */
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #C0C0C0;
+    /* color of the scrollbar thumb */
+    border-radius: 5px;
+    /* border radius of the scrollbar thumb */
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background-color: #A9A9A9;
+    /* color of the scrollbar thumb on hover */
+}
+
+textarea::-webkit-scrollbar-thumb:active {
+    background-color: #808080;
+    /* color of the scrollbar thumb when pressed */
+}
+
+.contact-form-container button {
+    background-color: #ff8059;
+    border: none;
+}
+
+.contact-form-container button:hover {
+    background-color: #ff8059;
+}
+
+/* ................COPYRIGHT.................. */
+
+.base-copyright {
+    background-color: #171e28;
+    overflow: hidden;
+    padding: 70px 5px 5px 5px;
+}
+
+.copyright-content {
+    margin: auto;
+    padding: 5px;
+    width: 1000px;
+    text-align: center;
+}
+
+.copyright-content p {
+    color: #b9bcc1;
+}

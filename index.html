@@ -11,9 +11,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 
+    <!--..............GOOGLE FONTS............-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <!--...........FONTAWESOME.............-->
     <script src="https://kit.fontawesome.com/7f94872909.js" crossorigin="anonymous"></script>
 
+    <!--............LOCAL CSS..............-->
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -21,7 +29,7 @@
 
 
     <!--...................NAVLINKS....................-->
-    <div class="base-links">
+    <div class="base-links-container">
         <div class="links-container">
             <div class="links-github">
                 <a href="https://github.com/piyushk77" target="_blank">
@@ -39,12 +47,6 @@
                 </a>
             </div>
         </div>
-
-        <div class="theme-convertor">
-            <div class="theme-button">
-                <i class="fa-solid fa-sun"></i>
-            </div>
-        </div>
     </div>
 
 
@@ -56,9 +58,6 @@
                 <div class="circle-heading">
                     <h6>FULLSTACK DEVELOPER</h6>
                     <h1>PIYUSH KATYAL</h1>
-                </div>
-                <div class="circle-divider">
-                    <hr>
                 </div>
                 <div class="circle-para">
                     <p>
@@ -92,835 +91,893 @@
 
 
     <!--.....................ABOUT ME..................-->
-    <div class="base-about">
-        <div class="about-heading">
-            <h1>About Me</h1>
-        </div>
+    <div class="base-about-container">
+        <div class="base-about">
+            <div class="about-heading">
+                <h1>About Me</h1>
+            </div>
 
-        <div class="about-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
+            <div class="about-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
 
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="about-content-note-icon">
-                                    <i class="fa-solid fa-diagram-project"></i>
+                            <div class="row about-content-note">
+                                <div class="col-12">
+                                    <div class="about-content-note-icon">
+                                        <i class="fa-solid fa-diagram-project"></i>
+                                    </div>
+
+                                    <div class="about-content-note-text">
+                                        <h3>3</h3>
+                                        <h5>Successful Projects</h5>
+                                    </div>
                                 </div>
+                                <div class="col-12">
+                                    <div class="about-content-note-icon">
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </div>
 
-                                <div class="about-content-note-text">
-                                    <h3>3</h3>
-                                    <h5>Successful Projects</h5>
+                                    <div class="about-content-note-text">
+                                        <h3>1</h3>
+                                        <h5>Training</h5>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="about-content-note-icon">
+                                        <i class="fa-solid fa-certificate"></i>
+                                    </div>
+
+                                    <div class="about-content-note-text">
+                                        <h3>1</h3>
+                                        <h5>Certification</h5>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="about-content-note-icon">
-                                    <i class="fa-solid fa-graduation-cap"></i>
-                                </div>
 
-                                <div class="about-content-note-text">
-                                    <h3>1</h3>
-                                    <h5>Training</h5>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="about-content-note-icon">
-                                    <i class="fa-solid fa-certificate"></i>
-                                </div>
-
-                                <div class="about-content-note-text">
-                                    <h3>1</h3>
-                                    <h5>Certification</h5>
-                                </div>
-                            </div>
                         </div>
 
-                    </div>
-
-                    <div class="col-1">
-                        <p>|</p>
-                    </div>
-
-                    <div class="col-8">
-
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="about-content-intro-text">
-                                    <p>
-                                        <strong>
-                                            I'm Piyush Katyal, a full-stack web developer with a Bachelor's degree in
-                                            Computer Science from VIT Bhopal University. I specialize in creating
-                                            beautiful and functional digital experiences by utilizing front-end and
-                                            back-end technologies, optimized back-end solutions, advanced algorithms,
-                                            and code analysis.
-                                        </strong>
-                                        <br>
-                                        My passion for nature, physics, and technology drives me to bridge the gap
-                                        between growing web technologies and end-users, making them accessible and easy
-                                        to use. By integrating the principles of physics and the natural world into my
-                                        work, I create digital experiences that blend the beauty of nature, the
-                                        complexity of physics, and the power of code.
-                                        <br>
-                                        Let's collaborate and build something amazing together!
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="col-12">
-                                <div class="about-content-intro-signature">
-                                    <img src="images/signature.svg" alt="User Signature"
-                                        style="width: 150px; filter: grayscale(100%);" />
-                                </div>
-                            </div>
+                        <div class="col-1">
+                            <div class="about-content-divider"></div>
                         </div>
 
+                        <div class="col-9">
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="about-content-intro-text">
+                                        <p>
+                                            <strong>
+                                                I'm Piyush Katyal, a full-stack web developer with a Bachelor's degree
+                                                in
+                                                Computer Science from VIT Bhopal University. I specialize in creating
+                                                beautiful and functional digital experiences by utilizing front-end and
+                                                back-end technologies, optimized back-end solutions, advanced
+                                                algorithms,
+                                                and code analysis.
+                                            </strong>
+                                            <br>
+                                            <br>
+                                            My passion for nature, physics, and technology drives me to bridge the gap
+                                            between growing web technologies and end-users, making them accessible and
+                                            easy
+                                            to use. By integrating the principles of physics and the natural world into
+                                            my
+                                            work, I create digital experiences that blend the beauty of nature, the
+                                            complexity of physics, and the power of code.
+                                            <br>
+                                            <br>
+                                            Let's collaborate and build something amazing together!
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="about-content-intro-signature">
+                                        <img src="images/signature.svg" alt="User Signature" />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="about-graphics">
-            <div class="about-graphics-one">
-            </div>
-            <div class="about-graphics-two">
-                <i class="fa-solid fa-seedling"></i>
+            <div class="about-graphics">
+                <div class="about-graphics-one">
+                    <i class="fa-solid fa-seedling"></i>
+                </div>
             </div>
         </div>
     </div>
+
 
 
 
     <!--......................RESUME...................-->
-    <div class="base-resume">
-        <div class="resume-heading">
-            <h1>Resume</h1>
-        </div>
+    <div class="base-resume-container">
+        <div class="base-resume">
+            <div class="resume-heading">
+                <h1>Resume</h1>
+            </div>
 
-        <div class="resume-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
+            <div class="resume-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
 
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="resume-note-icon">
-                                    <i class="fa-solid fa-guitar"></i>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="resume-content-note-icon">
+                                        <i class="fa-solid fa-guitar"></i>
+                                    </div>
+
+                                    <div class="resume-content-note-text">
+                                        <h5>Guitarist</h5>
+                                    </div>
                                 </div>
+                                <div class="col-12">
+                                    <div class="resume-content-note-icon">
+                                        <i class="fa-solid fa-atom"></i>
+                                    </div>
 
-                                <div class="resume-note-text">
-                                    <h5>Guitarist</h5>
+                                    <div class="resume-content-note-text">
+                                        <h5>Physics</h5>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="resume-content-note-icon">
+                                        <i class="fa-solid fa-language"></i>
+                                    </div>
+
+                                    <div class="resume-content-note-text">
+                                        <h5>Languages</h5>
+                                        <p>
+                                            English
+                                            <br>
+                                            Hindi
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="resume-note-icon">
-                                    <i class="fa-solid fa-atom"></i>
-                                </div>
 
-                                <div class="resume-note-text">
-                                    <h5>Physics</h5>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="resume-note-icon">
-                                    <i class="fa-solid fa-language"></i>
-                                </div>
-
-                                <div class="resume-note-text">
-                                    <h5>Languages</h5>
-                                    <p>
-                                        English
-                                        <br>
-                                        Hindi
-                                    </p>
-                                </div>
-                            </div>
                         </div>
 
-                    </div>
+                        <div class="col-1">
+                            <div class="resume-content-divider"></div>
+                        </div>
 
-                    <div class="col-1">
-                        <p>|</p>
-                    </div>
+                        <div class="col-9">
 
-                    <div class="col-8">
-
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="resume-intro-text">
-                                    <p>
-                                        As a full-stack developer with proficiency in HTML, CSS, JavaScript, and
-                                        MERN stack, I bring solid technical skills and hands-on experience in building
-                                        e-commerce websites as a front-end developer and a customized travelling route
-                                        filtration system as a full-stack developer. Currently pursuing my degree at VIT
-                                        Bhopal University, I am committed to leveraging my skills and knowledge to
-                                        deliver innovative solutions and make a positive impact on the industry.
-                                    </p>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="resume-content-intro-text">
+                                        <p>
+                                            As a full-stack developer with proficiency in HTML, CSS, JavaScript, and
+                                            MERN stack, I bring solid technical skills and hands-on experience in
+                                            building
+                                            e-commerce websites as a front-end developer and a customized travelling
+                                            route
+                                            filtration system as a full-stack developer. Currently pursuing my degree at
+                                            VIT
+                                            Bhopal University, I am committed to leveraging my skills and knowledge to
+                                            deliver innovative solutions and make a positive impact on the industry.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="resume-skills-text">
-                                    <h3>SKILLS</h3>
-
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <h5>HTML</h5>
+                                <div class="col-12">
+                                    <div class="resume-content-skills-text">
+                                        <div class="resume-content-skills-heading">
+                                            <h3>SKILLS</h3>
                                         </div>
-                                        <div class="col-7">
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                        </div>
-                                        <div class="col-2">
-                                            <div class="resume-skills-percent">
-                                                <p>50%</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <h5>CSS</h5>
-                                        </div>
-                                        <div class="col-7">
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                        </div>
-                                        <div class="col-2">
-                                            <div class="resume-skills-percent">
-                                                <p>50%</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <h5>JavaScript</h5>
-                                        </div>
-                                        <div class="col-7">
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                        </div>
-                                        <div class="col-2">
-                                            <div class="resume-skills-percent">
-                                                <p>50%</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <h5>Node.js</h5>
-                                        </div>
-                                        <div class="col-7">
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                        </div>
-                                        <div class="col-2">
-                                            <div class="resume-skills-percent">
-                                                <p>50%</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <h5>MongoDB</h5>
-                                        </div>
-                                        <div class="col-7">
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                        </div>
-                                        <div class="col-2">
-                                            <div class="resume-skills-percent">
-                                                <p>50%</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <h5>React.js</h5>
-                                        </div>
-                                        <div class="col-7">
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                            <span class="resume-skills-dot"></span>
-                                        </div>
-                                        <div class="col-2">
-                                            <div class="resume-skills-percent">
-                                                <p>50%</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-12">
-
-                                <div class="row">
-                                    <div class="col-6">
 
                                         <div class="row">
-                                            <div class="col-12">
-                                                <div class="resume-education-text">
-                                                    <h3>EDUCATION</h3>
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <h6>2021 - 2025</h6>
-                                                            <h5>Btech. Computer Science</h5>
-                                                            <h6>VIT Bhopal University</h6>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <h6>2017 - 2020</h6>
-                                                            <h5>Std 10<sup>th</sup> and 12<sup>th</sup></h5>
-                                                            <h6>Ryan International School</h6>
-                                                        </div>                                                       
-                                                    </div>
-                                                </div>
+                                            <div class="col-3">
+                                                <h5>HTML</h5>
                                             </div>
-                                            <div class="col-12">
-                                                <div class="resume-cocurri-text">
-                                                    <h3>CO-CURRICULAR</h3>
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <h6>LeetCode</h6>
-                                                            <h5>Ranking: xxxxx</h5>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <h6>Hackerrank</h6>
-                                                            <h5>Ranking: xxxxx</h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div class="col-7">
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span class="resume-content-skills-dot"></span>
                                             </div>
-                                            <div class="col-12">
-                                                <div class="resume-curricular-text">
-                                                    <h3>CURRICULAR</h3>
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <h6>CGPA</h6>
-                                                            <h5>9.071</h5>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <h6>XII<sup>th</sup></h6>
-                                                            <h5>94.6%</h5>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <h6>X<sup>th</sup></h6>
-                                                            <h5>94.4%</h5>
-                                                        </div>
-                                                    </div>
+                                            <div class="col-1">
+                                                <div class="resume-content-skills-percent">
+                                                    <p>90%</p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                    </div>
-                                    <div class="col-6">
                                         <div class="row">
-                                            <div class="col-12">
-                                                <div class="resume-education-text">
-                                                    <h3>EXPERIENCE</h3>
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <h6>2017 - 2020</h6>
-                                                            <h5>XYZ</h5>
-                                                            <h6>XYZ</h6>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <h6>2021 - 2025</h6>
-                                                            <h5>ABC</h5>
-                                                            <h6>ABC</h6>
-                                                        </div>
-                                                    </div>
+                                            <div class="col-3">
+                                                <h5>CSS</h5>
+                                            </div>
+                                            <div class="col-7">
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-orange"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-orange"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-orange"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-orange"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-orange"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-orange"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-orange"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-orange"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                            </div>
+                                            <div class="col-1">
+                                                <div class="resume-content-skills-percent">
+                                                    <p>80%</p>
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <h5>JavaScript</h5>
+                                            </div>
+                                            <div class="col-7">
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-blue"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-blue"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-blue"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-blue"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-blue"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-blue"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-blue"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                            </div>
+                                            <div class="col-1">
+                                                <div class="resume-content-skills-percent">
+                                                    <p>70%</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <h5>Node.js</h5>
+                                            </div>
+                                            <div class="col-7">
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-grey"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-grey"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-grey"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-grey"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                            </div>
+                                            <div class="col-1">
+                                                <div class="resume-content-skills-percent">
+                                                    <p>40%</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <h5>MongoDB</h5>
+                                            </div>
+                                            <div class="col-7">
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-yellow"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-yellow"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-yellow"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-yellow"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-yellow"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-yellow"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                            </div>
+                                            <div class="col-1">
+                                                <div class="resume-content-skills-percent">
+                                                    <p>60%</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <h5>React.js</h5>
+                                            </div>
+                                            <div class="col-7">
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span
+                                                    class="resume-content-skills-dot resume-content-skills-dot-purple"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                                <span class="resume-content-skills-dot"></span>
+                                            </div>
+                                            <div class="col-1">
+                                                <div class="resume-content-skills-percent">
+                                                    <p>30%</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
+                                <div class="col-12">
 
-                            </div>
-                            <div class="col-12">
-                                <div class="resume-download-icon">
-                                    <a href="./files/resume.pdf" download="resume-piyush-katyal">
-                                        <button type="button" class="btn btn-primary">Download Resume</button>
-                                    </a>
+                                    <div class="row resume-content-general-text">
+                                        <div class="col-6">
+
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="resume-education-text">
+                                                        <h3>EDUCATION</h3>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <h6>2021 - 2025</h6>
+                                                                <h5>Btech. Computer Science</h5>
+                                                                <h6>VIT Bhopal University</h6>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <h6>2017 - 2020</h6>
+                                                                <h5>Std 10<sup>th</sup> and 12<sup>th</sup></h5>
+                                                                <h6>Ryan International School</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="resume-curricular-text">
+                                                        <h3>CURRICULAR</h3>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <h6>CGPA</h6>
+                                                                <h5>9.071</h5>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <h6>XII<sup>th</sup></h6>
+                                                                <h5>94.6%</h5>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <h6>X<sup>th</sup></h6>
+                                                                <h5>94.4%</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="resume-experience-text">
+                                                        <h3>EXPERIENCE</h3>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <h6>2017 - 2020</h6>
+                                                                <h5>XYZ</h5>
+                                                                <h6>XYZ</h6>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <h6>2021 - 2025</h6>
+                                                                <h5>ABC</h5>
+                                                                <h6>ABC</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="resume-cocurri-text">
+                                                        <h3>CO-CURRICULAR</h3>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <h6>LeetCode</h6>
+                                                                <h5>Ranking: xxxxx</h5>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <h6>Hackerrank</h6>
+                                                                <h5>Ranking: xxxxx</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-12">
+                                    <div class="resume-download-button">
+                                        <a href="./files/resume.pdf" download="resume-piyush-katyal">
+                                            <button type="button" class="btn btn-primary">Download Resume</button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="resume-graphics">
-            <div class="resume-graphics-one">
-                <i class="fa-solid fa-leaf"></i>
-            </div>
-            <div class="resume-graphics-two">
-                <i class="fa-solid fa-bezier-curve"></i>
-            </div>
-            <div class="resume-graphics-three">
-                <i class="fa-solid fa-chart-pie"></i>
+            <div class="resume-graphics">
+                <div class="resume-graphics-one">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
             </div>
         </div>
     </div>
 
 
 
+
     <!--....................PROJECTS...................-->
-    <div class="base-projects">
-        <div class="projects-heading">
-            <h1>Projects</h1>
+    <div class="base-projects-container">
+        <div class="base-projects">
+            <div class="projects-heading">
+                <h1>Projects</h1>
+            </div>
+
+            <div class="projects-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <!-- ..........EMPTY.......... -->
+                        </div>
+
+                        <div class="col-1">
+                            <div class="projects-content-divider"></div>
+                        </div>
+
+                        <div class="col-9">
+
+                            <div class="projects-content-main">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
+                                    imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat
+                                    lacus.
+                                </p>
+                            </div>
+
+                            <div class="projects-content-description">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
+                                    imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat
+                                    lacus.
+                                    Cras vulputate velit eu dui ultricies, a tincidunt neque tempus. Suspendisse
+                                    accumsan
+                                    diam in ex finibus, vitae efficitur eros bibendum.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="projects-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
-                        <!-- ..........EMPTY.......... -->
-                    </div>
+        <div class="projects-showcase">
+            <div class="row projects-showcase-indiv-proj projects-showcase-indiv-proj1">
+                <div class="col-3">
 
-                    <div class="col-1">
-                        <p>|</p>
-                    </div>
-
-                    <div class="col-8">
-
-                        <div class="projects-content-main">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
-                                imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat lacus.
-                            </p>
+                    <div class="row projects-showcase-indiv projects-showcase-indiv-left">
+                        <div class="col-12">
+                            <h5>Description</h5>
+                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
                         </div>
 
-                        <div class="projects-content-description">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
-                                imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat lacus.
-                                Cras vulputate velit eu dui ultricies, a tincidunt neque tempus. Suspendisse accumsan
-                                diam in ex finibus, vitae efficitur eros bibendum.
-                            </p>
+                        <div class="col-12">
+                            <h5>Technologies</h5>
+                            <h6>C++, Python, TensorFlow, Machine Learning Algorithms</h6>
                         </div>
+                    </div>
 
+                </div>
+
+                <div class="col-6 text-center">
+                    <div class="projects-showcase-thumbnail-img">
+                        <img src="http://via.placeholder.com/540x300" alt="Project 1">
+                    </div>
+                    <div class="projects-showcase-thumbnail-text">
+                        <h5>Jan 2023</h5>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h6>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-3">
+                <div class="col-3">
 
-                        <div class="row">
-                            <div class="col-12">
-                                <h6>Description</h6>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                            </div>
-
-                            <div class="col-12">
-                                <h6>Technologies</h6>
-                                <h5>C++, Python, TensorFlow, Machine Learning Algorithms</h5>
-                            </div>
+                    <div class="row projects-showcase-indiv projects-showcase-indiv-right">
+                        <div class="col-12">
+                            <h5>Type</h5>
+                            <h6>Individual Project</h6>
                         </div>
 
-                    </div>
-
-                    <div class="col-6 text-center">
-                        <div class="projects-thumbnail-img">
-                            <img src="http://via.placeholder.com/540x300" alt="Project 1">
-                        </div>
-                        <div class="projects-thumbnail-text">
-                            <h6>Jan 23 - Apr 23</h6>
-                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                        <div class="col-12">
+                            <h5>Role</h5>
+                            <h6>Software Engineer</h6>
                         </div>
                     </div>
 
-                    <div class="col-3">
+                </div>
+            </div>
 
-                        <div class="row">
-                            <div class="col-12">
-                                <h6>Type</h6>
-                                <h5>Individual Project</h5>
-                            </div>
+            <div class="row projects-showcase-indiv-proj projects-showcase-indiv-proj2">
+                <div class="col-3">
 
-                            <div class="col-12">
-                                <h6>Role</h6>
-                                <h5>Software Engineer</h5>
-                            </div>
+                    <div class="row projects-showcase-indiv projects-showcase-indiv-left">
+                        <div class="col-12">
+                            <h5>Description</h5>
+                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
                         </div>
 
+                        <div class="col-12">
+                            <h5>Technologies</h5>
+                            <h6>C++, Python, TensorFlow, Machine Learning Algorithms</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-6 text-center">
+                    <div class="projects-showcase-thumbnail-img">
+                        <img src="http://via.placeholder.com/540x300" alt="Project 1">
+                    </div>
+                    <div class="projects-showcase-thumbnail-text">
+                        <h5>Jan 2023</h5>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h6>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-3">
+                <div class="col-3">
 
-                        <div class="row">
-                            <div class="col-12">
-                                <h6>Description</h6>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                            </div>
-
-                            <div class="col-12">
-                                <h6>Technologies</h6>
-                                <h5>C++, Python, TensorFlow, Machine Learning Algorithms</h5>
-                            </div>
+                    <div class="row projects-showcase-indiv projects-showcase-indiv-right">
+                        <div class="col-12">
+                            <h5>Type</h5>
+                            <h6>Individual Project</h6>
                         </div>
 
-                    </div>
-
-                    <div class="col-6 text-center">
-                        <div class="projects-thumbnail-img">
-                            <img src="http://via.placeholder.com/540x300" alt="Project 1">
-                        </div>
-                        <div class="projects-thumbnail-text">
-                            <h6>Jan 23 - Apr 23</h6>
-                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                        <div class="col-12">
+                            <h5>Role</h5>
+                            <h6>Software Engineer</h6>
                         </div>
                     </div>
 
-                    <div class="col-3">
+                </div>
+            </div>
 
-                        <div class="row">
-                            <div class="col-12">
-                                <h6>Type</h6>
-                                <h5>Individual Project</h5>
-                            </div>
+            <div class="row projects-showcase-indiv-proj projects-showcase-indiv-proj3">
+                <div class="col-3">
 
-                            <div class="col-12">
-                                <h6>Role</h6>
-                                <h5>Software Engineer</h5>
-                            </div>
+                    <div class="row projects-showcase-indiv projects-showcase-indiv-left">
+                        <div class="col-12">
+                            <h5>Description</h5>
+                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
                         </div>
 
+                        <div class="col-12">
+                            <h5>Technologies</h5>
+                            <h6>C++, Python, TensorFlow, Machine Learning Algorithms</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-6 text-center">
+                    <div class="projects-showcase-thumbnail-img">
+                        <img src="http://via.placeholder.com/540x300" alt="Project 1">
+                    </div>
+                    <div class="projects-showcase-thumbnail-text">
+                        <h5>Jan 2023</h5>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h6>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-3">
+                <div class="col-3">
 
-                        <div class="row">
-                            <div class="col-12">
-                                <h6>Description</h6>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                            </div>
-
-                            <div class="col-12">
-                                <h6>Technologies</h6>
-                                <h5>C++, Python, TensorFlow, Machine Learning Algorithms</h5>
-                            </div>
+                    <div class="row projects-showcase-indiv projects-showcase-indiv-right">
+                        <div class="col-12">
+                            <h5>Type</h5>
+                            <h6>Individual Project</h6>
                         </div>
 
-                    </div>
-
-                    <div class="col-6 text-center">
-                        <div class="projects-thumbnail-img">
-                            <img src="http://via.placeholder.com/540x300" alt="Project 1">
-                        </div>
-                        <div class="projects-thumbnail-text">
-                            <h6>Jan 23 - Apr 23</h6>
-                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                        <div class="col-12">
+                            <h5>Role</h5>
+                            <h6>Software Engineer</h6>
                         </div>
                     </div>
 
-                    <div class="col-3">
-
-                        <div class="row">
-                            <div class="col-12">
-                                <h6>Type</h6>
-                                <h5>Individual Project</h5>
-                            </div>
-
-                            <div class="col-12">
-                                <h6>Role</h6>
-                                <h5>Software Engineer</h5>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </div>
 
         <div class="projects-load">
-            <div class="load-button">
-                <button>Load More</button>
+            <div class="projects-load-button">
+                <button type="button" class="btn btn-primary">Load More</button>
             </div>
         </div>
 
         <div class="projects-graphics">
-            <div class="projects-graphics-one"></div>
-            <div class="projects-graphics-two"></div>
-            <div class="projects-graphics-three"></div>
-            <div class="projects-graphics-four"></div>
+            <div class="projects-graphics-one">
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+            </div>
         </div>
+
     </div>
+
 
 
 
     <!--.......................BLOG....................-->
-    <div class="base-blog">
-        <div class="blog-heading">
-            <h1>Blog</h1>
-        </div>
+    <div class="base-blog-container">
+        <div class="base-blog">
+            <div class="blog-heading">
+                <h1>My Blog</h1>
+            </div>
 
-        <div class="blog-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
-                        <!-- ..........EMPTY.......... -->
-                    </div>
-
-                    <div class="col-1">
-                        <p>|</p>
-                    </div>
-
-                    <div class="col-8">
-
-                        <div class="blogs-content-main">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
-                                imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat lacus.
-                            </p>
+            <div class="blog-content">
+                <div class="container">
+                    <div class="row blog-content-header">
+                        <div class="col-2">
+                            <!-- ..........EMPTY.......... -->
                         </div>
 
-                        <div class="blogs-content-description">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
-                                imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat lacus.
-                                Cras vulputate velit eu dui ultricies, a tincidunt neque tempus. Suspendisse accumsan
-                                diam in ex finibus, vitae efficitur eros bibendum.
-                            </p>
+                        <div class="col-1">
+                            <div class="blog-content-divider"></div>
                         </div>
 
-                    </div>
-                </div>
+                        <div class="col-9">
 
-                <div class="row">
-                    <div class="col-3">
-                        <div class="blogs-thumbnail-note">
-                            <h5>x Mins Read</h5>
-                            <p>xx May xxxx</p>
+                            <div class="blog-content-main">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
+                                    imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat
+                                    lacus.
+                                </p>
+                            </div>
+
+                            <div class="blog-content-description">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
+                                    imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat
+                                    lacus.
+                                    Cras vulputate velit eu dui ultricies, a tincidunt neque tempus. Suspendisse
+                                    accumsan
+                                    diam in ex finibus, vitae efficitur eros bibendum.
+                                </p>
+                            </div>
+
                         </div>
                     </div>
 
-                    <div class="col-1">
-                        <!-- ..........EMPTY.......... -->
-                    </div>
-
-                    <div class="col-8">
-                        <div class="blogs-thumbnail-blog">
-                            <h3>Lorem ipsum dolor sit amet</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
-                                imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat lacus.
-                            </p>
-                            <a href="#">
-                                Read More
-                            </a>
+                    <div class="row blog-content-indiv">
+                        <div class="col-3">
+                            <div class="blog-thumbnail-note">
+                                <h5>x Mins Read</h5>
+                                <p>xx May xxxx</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-3">
-                        <div class="blogs-thumbnail-note">
-                            <h5>x Mins Read</h5>
-                            <p>xx May xxxx</p>
+                        <div class="col-1">
+                            <!-- ..........EMPTY.......... -->
                         </div>
-                    </div>
 
-                    <div class="col-1">
-                        <!-- ..........EMPTY.......... -->
-                    </div>
-
-                    <div class="col-8">
-                        <div class="blogs-thumbnail-blog">
-                            <h3>Lorem ipsum dolor sit amet</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
-                                imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat lacus.
-                            </p>
-                            <a href="#">
-                                Read More
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-3">
-                        <div class="blogs-thumbnail-note">
-                            <h5>x Mins Read</h5>
-                            <p>xx May xxxx</p>
+                        <div class="col-8">
+                            <div class="blog-thumbnail-blog">
+                                <h3>Lorem ipsum dolor sit amet</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
+                                    imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat
+                                    lacus.
+                                </p>
+                                <a href="#">
+                                    Read More
+                                </a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-1">
-                        <!-- ..........EMPTY.......... -->
+                    <div class="row blog-content-indiv blog-content-indiv-2">
+                        <div class="col-3">
+                            <div class="blog-thumbnail-note">
+                                <h5>x Mins Read</h5>
+                                <p>xx May xxxx</p>
+                            </div>
+                        </div>
+
+                        <div class="col-1">
+                            <!-- ..........EMPTY.......... -->
+                        </div>
+
+                        <div class="col-8">
+                            <div class="blog-thumbnail-blog">
+                                <h3>Lorem ipsum dolor sit amet</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
+                                    imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat
+                                    lacus.
+                                </p>
+                                <a href="#">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-8">
-                        <div class="blogs-thumbnail-blog">
-                            <h3>Lorem ipsum dolor sit amet</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
-                                imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat lacus.
-                            </p>
-                            <a href="#">
-                                Read More
-                            </a>
+                    <div class="row blog-content-indiv">
+                        <div class="col-3">
+                            <div class="blog-thumbnail-note">
+                                <h5>x Mins Read</h5>
+                                <p>xx May xxxx</p>
+                            </div>
+                        </div>
+
+                        <div class="col-1">
+                            <!-- ..........EMPTY.......... -->
+                        </div>
+
+                        <div class="col-8">
+                            <div class="blog-thumbnail-blog">
+                                <h3>Lorem ipsum dolor sit amet</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ante vitae nisl
+                                    imperdiet pretium. Nullam quam nunc, accumsan vel lacus sed, elementum consequat
+                                    lacus.
+                                </p>
+                                <a href="#">
+                                    Read More
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="blog-graphics">
-            <div class="blog-graphics-one"></div>
-            <div class="blog-graphics-two"></div>
-        </div>
+            <div class="blog-graphics">
+                <div class="blog-graphics-one">
+                    <i class="fa-solid fa-cannabis"></i>
+                </div>
+            </div>
 
+        </div>
     </div>
+
 
 
 
     <!--.....................CONTACT ME................-->
-    <div class="base-contact">
-        <div class="contact-heading">
-            <h1>Contact Me</h1>
-        </div>
+    <div class="base-contact-container">
+        <div class="base-contact">
+            <div class="contact-heading">
+                <h1>Contact Me</h1>
+            </div>
 
-        <div class="contact-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
+            <div class="contact-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
 
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="contact-note-icon">
-                                    <a href="mailto:pshkatyal8@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-                                </div>
-
-                                <div class="contact-note-text">
-                                    <h5>pshkatyal8@gmail.com</h5>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="contact-note-icon">
-                                    <a href="https://www.linkedin.com/in/piyush-katyal-315836251" target="_blank"><i
-                                            class="fa-brands fa-linkedin-in"></i></a>
-                                </div>
-
-                                <div class="contact-note-text">
-                                    <!-- ..........EMPTY.......... -->
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-1">
-                        <p>|</p>
-                    </div>
-
-                    <div class="col-8">
-
-                        <div class="contact-form-container">
-                            <form id="contact-form">
-                                <div class="mb-3">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis quasi
-                                        assumenda vel animi, voluptate natus eveniet laudantium iure obcaecati minus
-                                        sapiente nisi, blanditiis cumque est. Adipisci vero quo accusantium.
-                                    </p>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="floatingInput" name="name"
-                                        placeholder="Enter your full name">
-                                    <label for="floatingInput">Name</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="email" class="form-control" id="floatingInput" name="email"
-                                        placeholder="user@example.com">
-                                    <label for="floatingInput">Email address</label>
-                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="contact-note-icon">
+                                        <a href="mailto:pshkatyal8@gmail.com"><i class="fa-regular fa-envelope"></i></a>
                                     </div>
                                 </div>
-                                <div class="form-floating mb-3">
-                                    <textarea class="form-control" placeholder="Leave a comment here"
-                                        id="floatingTextarea2" name="message" style="height: 100px"></textarea>
-                                    <label for="floatingTextarea2">Messages</label>
+                                <div class="col-12">
+                                    <div class="contact-note-icon">
+                                        <a href="https://www.linkedin.com/in/piyush-katyal-315836251" target="_blank"><i
+                                                class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
+                            </div>
+
                         </div>
 
+                        <div class="col-1">
+                            <div class="contact-content-divider"></div>
+                        </div>
+
+                        <div class="col-9">
+
+                            <div class="contact-form-container">
+                                <form id="contact-form">
+                                    <div class="mb-3">
+                                        <p>
+                                            Have a Question? or Just want to say Hi?
+                                            <br>
+                                            Drop me a message!
+                                        </p>
+                                    </div>
+                                    <div class="form-floating mb-3 contact-form-inputs">
+                                        <input type="text" class="form-control" id="floatingInput" name="name"
+                                            placeholder="Enter your full name">
+                                        <label for="floatingInput">Name</label>
+                                    </div>
+                                    <div class="form-floating mb-3 contact-form-inputs">
+                                        <input type="email" class="form-control" id="floatingInput" name="email"
+                                            placeholder="user@example.com">
+                                        <label for="floatingInput">Email address</label>
+                                        <div id="emailHelp" class="form-text contact-form-assure">We'll never share your
+                                            email with anyone
+                                            else.
+                                        </div>
+                                    </div>
+                                    <div class="form-floating mb-3 contact-form-inputs contact-form-textarea">
+                                        <textarea class="form-control" placeholder="Leave a comment here"
+                                            id="floatingTextarea2" name="message" style="height: 200px"></textarea>
+                                        <label for="floatingTextarea2">
+                                            <div class="hide-text">Message</div>
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="contact-graphics">
-            <div class="contact-graphics-one"></div>
-            <div class="contact-graphics-two"></div>
         </div>
     </div>
 
 
 
+
     <!--.............RESPONSIVE DATE COPYRIGHT.........-->
+
     <footer class="base-copyright">
         <div class="copyright-content">
-            <p>Copyright © <span id="copyright-date"></span> Piyush Katyal. All rights reserved.</p>
+            <p>Copyright © <span id="copyright-date"></span> <strong>Piyush Katyal</strong>. All rights reserved.</p>
         </div>
     </footer>
 

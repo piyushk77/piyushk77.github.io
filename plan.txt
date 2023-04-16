@@ -1,6 +1,5 @@
-1) use OBER (template) as inspiration.
-2) currently using html, css, js, jquery and bootstrap.
-3) divisions:
+************* TO BE DONE *****************
+1) divisions:
 	a) name, intro, no picture
 	b) about me
 	c) technologies or resume
@@ -8,8 +7,12 @@
 	e) my blog (may be optional)
 	f) contact me (include picture)
 	g) footer (copyright)
-4) use physics as the theme for side part graphics.
-5) dark-light mode convertor. (may be optional)
-6) central large circle for intro section (can be animated).
-7) toggle nave bar menue for responsiveness (contain general social links).
-8) add favicon
+2) use physics as the theme for side part graphics.
+3) dark-light mode convertor. (may be optional)
+4) central large circle for intro section (can be animated).
+5) toggle nave bar menue for responsiveness (contain general social links).
+6) add favicon
+7) correct the about me content from degree to student role
+8) correct cgpa to 9.06
+9) change full name to just first name in about me section
+10) media queries for responsiveness
