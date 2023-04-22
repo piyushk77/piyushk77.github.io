@@ -17,7 +17,7 @@ a {
     display: inline-block;
     padding: 25px 5px 5px 100px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 .links-container div {
@@ -1010,8 +1010,6 @@ textarea::-webkit-scrollbar-thumb:active {
     /* *************NAVLINKS************* */
     .links-container {
         padding: unset;
-        position: unset;
-        z-index: unset;
         padding-top: 100px;
         text-align: center;
         display: block;
@@ -1206,8 +1204,6 @@ textarea::-webkit-scrollbar-thumb:active {
 
     .links-container {
         padding: unset;
-        position: unset;
-        z-index: unset;
         padding-top: 100px;
         text-align: center;
         display: block;
@@ -1472,8 +1468,6 @@ textarea::-webkit-scrollbar-thumb:active {
 
     .links-container {
         padding: unset;
-        position: unset;
-        z-index: unset;
         padding-top: 100px;
         text-align: center;
         display: block;
@@ -1784,8 +1778,6 @@ textarea::-webkit-scrollbar-thumb:active {
 
     .links-container {
         padding: unset;
-        position: unset;
-        z-index: unset;
         padding-top: 100px;
         text-align: center;
         display: block;
@@ -2175,8 +2167,6 @@ textarea::-webkit-scrollbar-thumb:active {
 
     .links-container {
         padding: unset;
-        position: unset;
-        z-index: unset;
         padding-top: 15px;
         text-align: center;
         display: block;
