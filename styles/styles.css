@@ -1,0 +1,2795 @@
+body {
+    zoom: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ................NAVLINKS...................... */
+.base-links-container {
+    background-color: #222a35;
+    height: 380px;
+    padding: 5px;
+}
+
+.links-container {
+    display: inline-block;
+    padding: 25px 5px 5px 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.links-container div {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+.links-container div a {
+    color: #fbffff;
+    font-size: 1.4rem;
+}
+
+/* ................RELATIVE INTRO ABSOLUTE...................... */
+.base-main-container {
+    background-color: #171e28;
+    height: 500px;
+    position: relative;
+}
+
+.base-main {
+    padding: 5px;
+    position: absolute;
+    top: -340px;
+    width: 100%;
+}
+
+.main-circle {
+    border-radius: 50%;
+    border: #8e929b 1px solid;
+    height: 630px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 210px;
+    text-align: center;
+    width: 630px;
+}
+
+.circle-heading {
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 5px;
+    width: 500px;
+
+}
+
+.circle-heading h6 {
+    color: #8e929b;
+}
+
+.circle-heading h1 {
+    color: #fffffd;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+.circle-para {
+    color: #8e929b;
+    margin: auto;
+    padding: 5px;
+    width: 480px;
+}
+
+.main-extended {
+    padding: 5px;
+    width: 1000px;
+    margin: auto;
+}
+
+.main-extended-container {
+    padding: 25px;
+}
+
+.main-extended .row {
+    padding: 5px;
+}
+
+.main-extended .col {
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+}
+
+.main-extended h6 {
+    color: #8e929b;
+}
+
+.main-extended h4 {
+    color: #fffffd;
+}
+
+/* ................ABOUT ME.................. */
+
+.base-about-container {
+    background-color: #171e28;
+    overflow: hidden;
+    padding: 70px 5px 70px 5px;
+}
+
+.base-about {
+    margin: auto;
+    padding: 5px;
+    width: 1000px;
+}
+
+.about-heading {
+    color: #fffffd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.about-heading h1 {
+    margin-bottom: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+.about-content {
+    padding: 5px;
+}
+
+.about-content .row {
+    padding: 5px;
+}
+
+.about-content .row .col-2 {
+    text-align: right;
+}
+
+.about-content .row .col-1 {
+    padding: 5px;
+}
+
+.about-content-divider {
+    background-color: #8e929b;
+    height: 100%;
+    margin: auto;
+    width: 0.5px;
+}
+
+.about-content .row .col-12 {
+    padding: 5px;
+}
+
+.about-content-note .col-12 {
+    margin-bottom: 10px;
+}
+
+.about-content-note-icon i {
+    color: #8e929b;
+}
+
+.about-content-note-text {
+    color: #fffffd;
+}
+
+.about-content-note-text h3 {
+    margin-bottom: 0px;
+}
+
+.about-content-note-text h5 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.about-content-intro-text {
+    color: #8e929b;
+    padding: 5px;
+}
+
+.about-content-intro-text strong {
+    color: #fffffd;
+    font-weight: 400;
+}
+
+.about-content-intro-signature {
+    padding: 5px;
+}
+
+.about-content-intro-signature img {
+    filter: invert(50%);
+    padding: 5px;
+    width: 155px;
+}
+
+.about-graphics-one {
+    position: relative;
+}
+
+.about-graphics-one i {
+    color: #222a35;
+    font-size: 8rem;
+    position: absolute;
+    left: -140px;
+    top: -45px;
+}
+
+/* ..................RESUME.................... */
+
+.base-resume-container {
+    background-color: #222a35;
+    overflow: hidden;
+    padding: 70px 5px 70px 5px;
+}
+
+.base-resume {
+    margin: auto;
+    padding: 5px;
+    width: 1000px;
+}
+
+.resume-heading {
+    color: #fffffd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.resume-heading h1 {
+    margin-bottom: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+.resume-content {
+    padding: 5px;
+}
+
+.resume-content .row {
+    padding: 5px;
+}
+
+.resume-content .row .col-2 {
+    text-align: right;
+}
+
+.resume-content .row .col-1 {
+    padding: 5px;
+}
+
+.resume-content-divider {
+    background-color: #8e929b;
+    height: 100%;
+    margin: auto;
+    width: 0.5px;
+}
+
+.resume-content .row .col-12 {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.resume-content-note-icon i {
+    color: #8e929b;
+}
+
+.resume-content-note-text {
+    color: #fffffd;
+}
+
+.resume-content-note-text h3 {
+    margin-bottom: 0px;
+}
+
+.resume-content-note-text h5 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.resume-content-note-text p {
+    color: #8e929b;
+}
+
+.resume-content-intro-text {
+    color: #8e929b;
+    padding: 5px;
+}
+
+.resume-content-skills-text {
+    color: #b9bcc1;
+}
+
+.resume-content-skills-heading {
+    padding: 5px;
+    color: #fffffd;
+}
+
+.resume-content-skills-text .row {
+    margin: auto;
+}
+
+.resume-content-skills-dot {
+    height: 12px;
+    width: 12px;
+    margin: 0px 5px;
+    background-color: #171e28;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.resume-content-skills-dot-purple {
+    background-color: #666cdb;
+}
+
+.resume-content-skills-dot-orange {
+    background-color: #ff805a;
+}
+
+.resume-content-skills-dot-blue {
+    background-color: #3bafc4;
+}
+
+.resume-content-skills-dot-grey {
+    background-color: #b8d1e7;
+}
+
+.resume-content-skills-dot-yellow {
+    background-color: #fed041;
+}
+
+.resume-content .col-9 .row .row {
+    width: 100%;
+    margin: auto;
+}
+
+.resume-content-general-text {
+    color: #6f7680;
+}
+
+.resume-content-general-text h3 {
+    color: #fffffd;
+}
+
+.resume-content-general-text h5 {
+    color: #b9bcc1;
+}
+
+.resume-content-general-text .row,
+.resume-content-general-text .col-12,
+.resume-content-general-text .col-6 {
+    padding: 0px !important;
+}
+
+.resume-content-general-text-right {
+
+    display: none;
+    /* //////////////////////////////////////////      TO BE REMOVED    //////////////////////////////////////////////////// */
+}
+
+.resume-education-text {
+    margin: 10px 0px;
+}
+
+.resume-education-text .row {
+    width: 100%;
+    margin: auto;
+}
+
+.resume-education-text .row .col-12 {
+    margin: 10px 0px;
+}
+
+.resume-cocurri-text {
+    margin: 10px 0px;
+}
+
+.resume-cocurri-text .row {
+    width: 100%;
+    margin: auto;
+}
+
+.resume-cocurri-text .row .col-12 {
+    margin: 10px 0px;
+}
+
+.resume-curricular-text {
+    margin: 10px 0px;
+}
+
+.resume-curricular-text .row {
+    width: 100%;
+    margin: auto;
+}
+
+.resume-curricular-text .row .col-12 {
+    margin: 10px 0px;
+}
+
+.resume-experience-text {
+    margin: 10px 0px;
+}
+
+.resume-experience-text .row {
+    width: 100%;
+    margin: auto;
+}
+
+.resume-experience-text .row .col-12 {
+    margin: 10px 0px;
+}
+
+.resume-download-button {
+    margin-bottom: 30px;
+}
+
+.resume-download-button button {
+    background-color: #ff8059;
+    border: none;
+    width: 200px;
+}
+
+.resume-download-button button:hover {
+    background-color: #ff8059;
+}
+
+.resume-graphics-one {
+    position: relative;
+}
+
+.resume-graphics-one i {
+    color: #171e28;
+    font-size: 8rem;
+    position: absolute;
+    right: -140px;
+    top: -55px;
+    rotate: 342deg;
+}
+
+/* ..................PROJECTS.................... */
+
+.base-projects-container {
+
+    display: none;
+    /* ////////////////////////////////////////////////////////    TO BE REMOVED    ///////////////////////////////////////// */
+
+    background-color: #171e28;
+    overflow: hidden;
+    padding: 70px 5px 70px 5px;
+}
+
+.base-projects {
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 5px;
+    width: 1000px;
+}
+
+.projects-heading {
+    color: #fffffd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.projects-heading h1 {
+    margin-bottom: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+.projects-content {
+    padding: 5px;
+}
+
+.projects-content .row {
+    padding: 5px;
+}
+
+.projects-content .row .col-1 {
+    padding: 5px;
+}
+
+.projects-content-divider {
+    background-color: #8e929b;
+    height: 100%;
+    margin: auto;
+    width: 0.5px;
+}
+
+.projects-content .row .col-12 {
+    padding: 5px;
+}
+
+.projects-content-main {
+    color: #fffffd;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.projects-content-description {
+    color: #8e929b;
+    padding: 5px;
+}
+
+.projects-showcase {
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 5px;
+    width: 1520px;
+}
+
+.projects-showcase .row {
+    margin: auto;
+    padding: 5px;
+}
+
+.projects-showcase-indiv-proj {
+    margin-top: 110px !important;
+}
+
+.projects-showcase .row .col-3,
+.projects-showcase .row .col-6,
+.projects-showcase .row .col-3 {
+    padding: 5px;
+}
+
+.projects-showcase-indiv .col-12 {
+    margin-bottom: 100px;
+    padding: 5px;
+}
+
+.projects-showcase-indiv h5 {
+    color: #b9bcc1;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.projects-showcase-indiv h6 {
+    color: #6f7680;
+    font-weight: 400;
+}
+
+.projects-showcase-indiv-left {
+    text-align: left;
+}
+
+.projects-showcase-indiv-left-resp {
+    display: none;
+}
+
+.projects-showcase-indiv-mid-resp {
+    display: none;
+}
+
+.projects-showcase-indiv-right {
+    text-align: right;
+}
+
+.projects-showcase-thumbnail-img {
+    margin-bottom: 40px;
+}
+
+.projects-showcase-thumbnail-img img {
+    border-radius: 10px;
+}
+
+.projects-showcase-thumbnail-text h5 {
+    color: #fffffd;
+    margin-bottom: 15px;
+}
+
+.projects-showcase-thumbnail-text h6 {
+    color: #8e929b;
+}
+
+.projects-showcase-indiv-proj3 {
+    display: none;
+}
+
+.projects-load {
+    margin: auto;
+    margin-bottom: 80px;
+    padding: 5px;
+    width: 1000px;
+}
+
+.projects-load-button {
+    padding: 5px;
+    text-align: center;
+}
+
+.projects-load-button button {
+    background-color: #ff8059;
+    border: none;
+    width: 200px;
+}
+
+.projects-load-button button:hover {
+    background-color: #ff8059;
+}
+
+.projects-graphics {
+    margin: auto;
+    width: 1000px;
+}
+
+.projects-graphics-one {
+    position: relative;
+}
+
+.projects-graphics-one i {
+    color: #222a35;
+    font-size: 8rem;
+    position: absolute;
+    left: -140px;
+    top: -55px;
+}
+
+/* ................BLOG.................. */
+
+.base-blog-container {
+    
+    display: none;
+    /* ///////////////////////////////////////////////////////////       TO BE REMOVED   ////////////////////////////////////////// */
+
+    background-color: #222a35;
+    padding: 70px 5px 70px 5px;
+}
+
+.base-blog {
+    margin: auto;
+    padding: 5px;
+    width: 1000px;
+}
+
+.blog-heading {
+    color: #fffffd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.blog-heading h1 {
+    margin-bottom: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+.blog-content {
+    padding: 5px;
+}
+
+.blog-content-header {
+    margin-bottom: 100px;
+}
+
+.blog-content .row {
+    padding: 5px;
+}
+
+.blog-content .row .col-2 {
+    text-align: right;
+}
+
+.blog-content .row .col-1 {
+    padding: 5px;
+}
+
+.blog-content-divider {
+    background-color: #8e929b;
+    height: 100%;
+    margin: auto;
+    width: 0.5px;
+}
+
+.blog-content-main {
+    color: #fffffd;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.blog-content-description {
+    color: #8e929b;
+    padding: 5px;
+}
+
+.blog-content-indiv {
+    margin-bottom: 50px;
+}
+
+.blog-content-indiv-2 {
+    border: #ff8059 1px solid;
+    border-radius: 10px;
+}
+
+.blog-thumbnail-note {
+    padding: 5px;
+}
+
+.blog-thumbnail-note h5 {
+    color: #b9bcc1;
+}
+
+.blog-thumbnail-note p {
+    color: #6f7680;
+}
+
+.blog-thumbnail-blog h3 {
+    color: #b9bcc1;
+}
+
+.blog-thumbnail-blog p {
+    color: #6f7680;
+}
+
+.blog-thumbnail-blog a {
+    color: #ff8059;
+}
+
+.blog-graphics-one {
+    position: relative;
+}
+
+.blog-graphics-one i {
+    color: #222a35;
+    font-size: 8rem;
+    position: absolute;
+    right: -140px;
+    top: 70px;
+    rotate: 180deg;
+}
+
+/* ................CONTACT.................. */
+
+.base-contact-container {
+    background-color: #171e28;
+    overflow: hidden;
+    padding: 70px 5px 70px 5px;
+}
+
+.base-contact {
+    margin: auto;
+    padding: 5px;
+    width: 1000px;
+}
+
+.contact-heading {
+    color: #fffffd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.contact-heading h1 {
+    margin-bottom: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+.contact-content {
+    padding: 5px;
+}
+
+.contact-content .row {
+    padding: 5px;
+}
+
+.contact-content .col-12 {
+    margin-bottom: 15px;
+}
+
+.contact-content .row .col-2 {
+    text-align: right;
+}
+
+.contact-content .row .col-1 {
+    padding: 5px;
+}
+
+.contact-content-divider {
+    background-color: #8e929b;
+    height: 100%;
+    margin: auto;
+    width: 0.5px;
+}
+
+.contact-content .row .col-12 {
+    padding: 5px;
+}
+
+.contact-note-icon i {
+    color: #8e929b;
+    font-size: 1.3rem;
+}
+
+.contact-form-container p {
+    color: #8e929b;
+    padding: 5px;
+}
+
+.contact-form-inputs {
+    margin-bottom: 2rem !important;
+}
+
+.contact-form-assure {
+    color: #6f7680;
+}
+
+/* Removes the form bug from bootstrap */
+.form-floating:not(.form-control:disabled)::before {
+    display: none;
+}
+
+.contact-form-container .form-floating input,
+.contact-form-container .form-floating textarea {
+    background-color: transparent;
+    border-width: 1px;
+    border-color: #9f9f9f;
+    color: #fffffd;
+    padding-top: 35px !important;
+}
+
+.contact-form-textarea textarea {
+    resize: none;
+    padding-left: 13px !important;
+    height: 200px !important;
+}
+
+.contact-form-container .form-floating label {
+    color: #b9bcc1;
+}
+
+.contact-form-container .form-floating input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fffffd;
+}
+
+.contact-form-textarea label {
+    opacity: unset !important;
+    padding-top: 8px;
+}
+
+.contact-form-textarea .hide-text {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #171e28;
+}
+
+/* Customizing the scrollbar */
+textarea::-webkit-scrollbar {
+    width: 8px;
+    /* width of the scrollbar */
+    background-color: #00000000;
+    /* background color of the scrollbar */
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #C0C0C0;
+    /* color of the scrollbar thumb */
+    border-radius: 5px;
+    /* border radius of the scrollbar thumb */
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background-color: #A9A9A9;
+    /* color of the scrollbar thumb on hover */
+}
+
+textarea::-webkit-scrollbar-thumb:active {
+    background-color: #808080;
+    /* color of the scrollbar thumb when pressed */
+}
+
+.contact-form-container button {
+    background-color: #ff8059;
+    border: none;
+}
+
+.contact-form-container button:hover {
+    background-color: #ff8059;
+}
+
+/* ................COPYRIGHT.................. */
+
+.base-copyright {
+    background-color: #171e28;
+    overflow: hidden;
+    padding: 70px 5px 5px 5px;
+}
+
+.copyright-content {
+    margin: auto;
+    padding: 5px;
+    width: 1000px;
+    text-align: center;
+}
+
+.copyright-content p {
+    color: #b9bcc1;
+}
+
+
+/*/////////////////////////////////// ********MEDIA QUERIES********* ////////////////////////////////*/
+@media (min-width: 1520px) {
+
+    /* ................ABOUT ME.................. */
+    .about-content .row .col-2 {
+        width: 150px;
+    }
+
+    .about-content .row .col-1 {
+        width: 45px;
+    }
+
+    /* ..................RESUME.................... */
+    .resume-content .row .col-2 {
+        width: 150px;
+    }
+
+    .resume-mid {
+        width: 45px;
+    }
+
+    /* ..................PROJECTS.................... */
+    .projects-content .row .col-2 {
+        width: 150px;
+    }
+
+    .projects-content .row .col-1 {
+        width: 45px;
+    }
+
+    /* ................BLOG.................. */
+    .blog-content .row .col-2 {
+        width: 150px;
+    }
+
+    .blog-content .row .col-1 {
+        width: 45px;
+    }
+
+    /* ................CONTACT.................. */
+    .contact-content .row .col-2 {
+        width: 150px;
+    }
+
+    .contact-content .row .col-1 {
+        width: 45px;
+    }
+}
+
+@media (min-width: 1150px) and (max-width: 1520px) {
+
+    /* *************PROJECTS************* */
+    .projects-showcase {
+        width: 1216px;
+    }
+}
+
+@media (min-width:950px) and (max-width: 1150px) {
+
+    /* ................ABOUT ME.................. */
+    .about-graphics-one i {
+        left: 0px;
+    }
+
+    /* ..................RESUME.................... */
+    .resume-graphics-one i {
+        right: 0px;
+    }
+
+    /* *************PROJECTS************* */
+    .projects-showcase {
+        width: 950px;
+    }
+
+    .projects-showcase-indiv .col-12 {
+        margin-bottom: unset;
+    }
+
+    .projects-showcase-indiv-left-resp {
+        display: block;
+    }
+
+    .projects-showcase-indiv-mid {
+        width: 75%;
+    }
+
+    .projects-showcase-indiv-right {
+        display: none;
+    }
+
+    .projects-graphics-one i {
+        left: 0px;
+    }
+
+    /* ................BLOG.................. */
+    .blog-graphics-one i {
+        right: 0px;
+    }
+}
+
+@media (min-width: 650px) and (max-width:950px) {
+
+    /* *************NAVLINKS************* */
+    .links-container {
+        padding: unset;
+        position: unset;
+        z-index: unset;
+        padding-top: 100px;
+        text-align: center;
+        display: block;
+    }
+
+    /* ***********RELATIVE INTRO ABSOLUTE********* */
+    .base-main-container {
+        height: 550px;
+    }
+
+    .main-extended {
+        width: 770px;
+    }
+
+    /* ................ABOUT ME.................. */
+    .base-about {
+        width: 770px;
+    }
+
+    .about-content .row .col-2 {
+        width: 110px;
+    }
+
+    .about-content .row .col-1 {
+        width: 5px;
+    }
+
+    .about-graphics-one i {
+        left: 0px;
+        font-size: 7rem;
+        top: -30px;
+    }
+
+    /* ..................RESUME.................... */
+    .base-resume {
+        width: 770px;
+    }
+
+    .resume-content .row .col-2 {
+        width: 110px;
+    }
+
+    .resume-mid {
+        width: 5px;
+    }
+
+    .resume-content-skills-text .row .col-3 {
+        width: 120px;
+    }
+
+    .resume-content-skills-text .row .col-7 {
+        width: 200px;
+    }
+
+    .resume-content-skills-text .row .col-1 {
+        width: auto;
+    }
+
+    .resume-content-skills-heading h3 {
+        font-size: 1.4rem;
+    }
+
+    .resume-content-skills-text h5 {
+        font-size: 1.1rem;
+    }
+
+    .resume-content-skills-percent {
+        font-size: 1.1rem;
+    }
+
+    .resume-content-skills-dot {
+        margin: unset;
+    }
+
+    .resume-content-general-text h6 {
+        font-size: 1rem;
+    }
+
+    .resume-content-general-text h3 {
+        font-size: 1.4rem;
+    }
+
+    .resume-content-general-text h5 {
+        font-size: 1.2rem;
+    }
+
+    .resume-graphics-one i {
+        right: 0px;
+        font-size: 7rem;
+        top: -30px;
+    }
+
+    /* ..................PROJECTS.................... */
+    .base-projects {
+        width: 770px;
+    }
+
+    .projects-content .row .col-2 {
+        width: 110px;
+    }
+
+    .projects-content .row .col-1 {
+        width: 5px;
+    }
+
+    .projects-showcase {
+        width: 750px;
+    }
+
+    .projects-showcase-indiv-proj {
+        margin-top: 50px !important;
+    }
+
+    .projects-showcase-indiv .col-12 {
+        margin-bottom: unset;
+    }
+
+    .projects-showcase-indiv-left {
+        display: none;
+    }
+
+    .projects-showcase-indiv-mid {
+        width: 100%;
+    }
+
+    .projects-showcase-indiv-mid-resp {
+        display: block;
+    }
+
+    .projects-showcase-indiv-right {
+        display: none;
+    }
+
+    .projects-load {
+        width: 770px;
+    }
+
+    .projects-graphics {
+        width: 770px;
+    }
+
+    .projects-graphics-one i {
+        left: 0px;
+        font-size: 7rem;
+        top: -30px;
+    }
+
+    /* ................BLOG.................. */
+    .base-blog {
+        width: 770px;
+    }
+
+    .blog-content .row .col-2 {
+        width: 110px;
+    }
+
+    .blog-content .row .col-1 {
+        width: 5px;
+    }
+
+    .blog-graphics-one i {
+        right: 0px;
+        font-size: 7rem;
+    }
+
+    /* ................CONTACT.................. */
+    .base-contact {
+        width: 770px;
+    }
+
+    .contact-content .row .col-2 {
+        width: 110px;
+    }
+
+    .contact-content .row .col-1 {
+        width: 5px;
+    }
+
+    /* ................COPYRIGHT.................. */
+
+    .copyright-content {
+        width: 770px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 650px) {
+
+    /* *************NAVLINKS************* */
+    .base-links-container {
+        height: 300px;
+    }
+
+    .links-container {
+        padding: unset;
+        position: unset;
+        z-index: unset;
+        padding-top: 100px;
+        text-align: center;
+        display: block;
+    }
+
+    /* ................RELATIVE INTRO ABSOLUTE...................... */
+    .base-main-container {
+        height: 550px;
+    }
+
+    .base-main {
+        top: -245px;
+    }
+
+    .main-circle {
+        height: 500px;
+        width: 500px;
+        padding-top: 130px;
+    }
+
+    .circle-heading {
+        width: 400px;
+    }
+
+    .circle-heading h1 {
+        font-size: 3rem;
+    }
+
+    .circle-para {
+        width: 440px;
+    }
+
+    .main-extended {
+        width: 590px;
+    }
+
+    /* ................ABOUT ME.................. */
+    .base-about {
+        width: 590px;
+    }
+
+    .base-about-container {
+        padding-top: 30px;
+    }
+
+    .about-heading h1 {
+        font-size: 3rem;
+    }
+
+    .about-content .row .col-2 {
+        width: 110px;
+    }
+
+    .about-content .row .col-1 {
+        width: 5px;
+    }
+
+    .about-graphics-one i {
+        left: 0px;
+        font-size: 7rem;
+        top: -30px;
+    }
+
+    /* ..................RESUME.................... */
+    .base-resume {
+        width: 590px;
+    }
+
+    .resume-heading h1 {
+        font-size: 3rem;
+    }
+
+    .resume-content .row .col-2 {
+        width: 110px;
+    }
+
+    .resume-mid {
+        width: 5px;
+    }
+
+    .resume-content-skills-text .row .col-3 {
+        width: 120px;
+    }
+
+    .resume-content-skills-text .row .col-7 {
+        width: 200px;
+    }
+
+    .resume-content-skills-text .row .col-1 {
+        width: auto;
+    }
+
+    .resume-content-skills-heading h3 {
+        font-size: 1.3rem;
+    }
+
+    .resume-content-skills-text h5 {
+        font-size: 1.05rem;
+    }
+
+    .resume-content-skills-percent {
+        font-size: 1.05rem;
+    }
+
+    .resume-content-skills-dot {
+        margin: unset;
+    }
+
+    .resume-content-general-text-left {
+        width: 200px;
+    }
+
+    .resume-content-general-text-right {
+        width: 165px;
+        text-align: right;
+    }
+
+    .resume-content-general-text h6 {
+        font-size: 0.9rem;
+    }
+
+    .resume-content-general-text h3 {
+        font-size: 1.3rem;
+    }
+
+    .resume-content-general-text h5 {
+        font-size: 1.1rem;
+    }
+
+    .resume-graphics-one i {
+        right: 0px;
+        font-size: 7rem;
+        top: -30px;
+    }
+
+    /* ..................PROJECTS.................... */
+
+    .base-projects {
+        width: 590px;
+    }
+
+    .projects-heading h1 {
+        font-size: 3rem;
+    }
+
+    .projects-content .row .col-2 {
+        width: 110px;
+    }
+
+    .projects-content .row .col-1 {
+        width: 5px;
+    }
+
+    .projects-showcase {
+        width: 575px;
+    }
+
+    .projects-showcase-indiv-proj {
+        margin-top: 60px !important;
+    }
+
+    .projects-showcase-indiv .col-12 {
+        margin-bottom: unset;
+    }
+
+    .projects-showcase-indiv-left {
+        display: none;
+    }
+
+    .projects-showcase-indiv-mid {
+        width: 100%;
+    }
+
+    .projects-showcase-indiv-mid-resp {
+        display: block;
+    }
+
+    .projects-showcase-indiv-right {
+        display: none;
+    }
+
+    .projects-load {
+        width: 590px;
+    }
+
+    .projects-graphics {
+        width: 590px;
+    }
+
+    .projects-graphics-one i {
+        left: 0px;
+        font-size: 7rem;
+        top: -30px;
+    }
+
+    /* ................BLOG.................. */
+
+    .base-blog-container {
+        padding-bottom: 30px;
+    }
+
+    .base-blog {
+        width: 590px;
+    }
+
+    .blog-heading h1 {
+        font-size: 3rem;
+    }
+
+    .blog-content-header {
+        margin-bottom: 60px;
+    }
+
+    .blog-content .row .col-2 {
+        width: 110px;
+    }
+
+    .blog-content .row .col-1 {
+        width: 5px;
+    }
+
+    .blog-graphics-one i {
+        right: 0px;
+        font-size: 7rem;
+        top: 30px;
+    }
+
+    /* ................CONTACT.................. */
+    .base-contact {
+        width: 590px;
+    }
+
+    .contact-heading h1 {
+        font-size: 3rem;
+    }
+
+    .contact-content .row .col-2 {
+        width: 110px;
+    }
+
+    .contact-content .row .col-1 {
+        width: 5px;
+    }
+
+    /* ................COPYRIGHT.................. */
+
+    .base-copyright {
+        padding-top: 20px;
+    }
+
+    .copyright-content {
+        width: 590px;
+    }
+}
+
+@media (min-width:395px) and (max-width: 500px) {
+
+    /* *************NAVLINKS************* */
+    .base-links-container {
+        height: 300px;
+    }
+
+    .links-container {
+        padding: unset;
+        position: unset;
+        z-index: unset;
+        padding-top: 100px;
+        text-align: center;
+        display: block;
+    }
+
+    /* ................RELATIVE INTRO ABSOLUTE...................... */
+    .base-main-container {
+        height: 550px;
+    }
+
+    .base-main {
+        top: -245px;
+    }
+
+    .main-circle {
+        height: 460px;
+        width: 460px;
+        padding-top: 130px;
+    }
+
+    .circle-heading {
+        width: 400px;
+    }
+
+    .circle-heading h1 {
+        font-size: 3rem;
+    }
+
+    .circle-para {
+        width: 330px;
+    }
+
+    .main-extended {
+        width: 465px;
+    }
+
+    /* ................ABOUT ME.................. */
+    .base-about {
+        width: 465px;
+    }
+
+    .base-about-container {
+        padding-top: 30px;
+    }
+
+    .about-heading h1 {
+        font-size: 3rem;
+    }
+
+    .about-content .row .col-2 {
+        width: 110px;
+    }
+
+    .about-content .row .col-1 {
+        width: 5px;
+    }
+
+    .about-content .row .col-9 {
+        width: 315px;
+    }
+
+    .about-graphics-one i {
+        left: 0px;
+        font-size: 7rem;
+        top: -30px;
+    }
+
+    /* ..................RESUME.................... */
+
+    .base-resume-container {
+        padding-bottom: 40px;
+    }
+
+    .base-resume {
+        width: 465px;
+    }
+
+    .resume-heading h1 {
+        font-size: 3rem;
+    }
+
+    .resume-content .row .col-2 {
+        width: 100%;
+    }
+
+    .resume-content .row .col-2 .row .col-12 {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .resume-mid {
+        display: none;
+    }
+
+    .resume-content .row .col-9 {
+        width: 100%;
+    }
+
+    .resume-content-skills-heading h3 {
+        font-size: 1.3rem;
+    }
+
+    .resume-content-skills-text h5 {
+        font-size: 1.05rem;
+    }
+
+    .resume-content-skills-percent {
+        font-size: 1.05rem;
+    }
+
+    .resume-content-skills-text .row .col-3 {
+        width: 120px;
+    }
+
+    .resume-content-skills-text .row .col-7 {
+        width: 200px;
+    }
+
+    .resume-content-skills-text .row .col-1 {
+        width: auto;
+        padding-left: 12px;
+    }
+
+    .resume-content-skills-dot {
+        margin: unset;
+    }
+
+    .resume-content-general-text-left {
+        width: 100%;
+    }
+
+    .resume-content-general-text-right {
+        width: 100%;
+    }
+
+    .resume-content-general-text h6 {
+        font-size: 0.9rem;
+    }
+
+    .resume-content-general-text h3 {
+        font-size: 1.3rem;
+    }
+
+    .resume-content-general-text h5 {
+        font-size: 1.1rem;
+    }
+
+    .resume-download-button button {
+        width: 170px;
+    }
+
+    .resume-graphics-one i {
+        right: 0px;
+        font-size: 7rem;
+        top: -60px;
+    }
+
+    /* ..................PROJECTS.................... */
+
+    .base-projects-container {
+        padding-bottom: 30px;
+    }
+
+    .base-projects {
+        width: 465px;
+    }
+
+    .projects-heading h1 {
+        font-size: 3rem;
+    }
+
+    .projects-content .row .col-2 {
+        width: 110px;
+    }
+
+    .projects-content .row .col-1 {
+        width: 5px;
+    }
+
+    .projects-content .row .col-9 {
+        width: 315px;
+    }
+
+    .projects-showcase {
+        width: 450px;
+    }
+
+    .projects-showcase-indiv-proj {
+        margin-top: 25px !important;
+    }
+
+    .projects-showcase-thumbnail-img img {
+        width: 400px;
+    }
+
+    .projects-showcase-indiv .col-12 {
+        margin-bottom: unset;
+    }
+
+    .projects-showcase-indiv-left {
+        display: none;
+    }
+
+    .projects-showcase-indiv-mid {
+        width: 100%;
+    }
+
+    .projects-showcase-indiv-mid-resp {
+        display: block;
+    }
+
+    .projects-showcase-indiv-right {
+        display: none;
+    }
+
+    .projects-load {
+        width: 465px;
+    }
+
+    .projects-load-button button {
+        width: 170px;
+    }
+
+    .projects-graphics {
+        width: 465px;
+    }
+
+    .projects-graphics-one i {
+        left: 0px;
+        font-size: 7rem;
+        top: -80px;
+    }
+
+    /* ................BLOG.................. */
+    .base-blog-container {
+        padding-bottom: 20px;
+    }
+
+    .base-blog {
+        width: 465px;
+    }
+
+    .blog-heading h1 {
+        font-size: 3rem;
+    }
+
+    .blog-content-header {
+        margin-bottom: 50px;
+    }
+
+    .blog-content .row .col-2 {
+        width: 110px;
+    }
+
+    .blog-content .row .col-1 {
+        width: 5px;
+    }
+
+    .blog-content .row .col-9 {
+        width: 315px;
+    }
+
+    .blog-graphics-one i {
+        right: 0px;
+        font-size: 7rem;
+        top: 20px;
+    }
+
+    /* ................CONTACT.................. */
+    .base-contact {
+        width: 465px;
+    }
+
+    .contact-heading h1 {
+        font-size: 3rem;
+    }
+
+    .contact-content .row .col-2 {
+        width: 110px;
+    }
+
+    .contact-content .row .col-1 {
+        width: 5px;
+    }
+
+    .contact-content .row .col-9 {
+        width: 315px;
+    }
+
+    /* ................COPYRIGHT.................. */
+
+    .base-copyright {
+        padding-top: 20px;
+    }
+
+    .copyright-content {
+        width: 465px;
+    }
+}
+
+@media (min-width:320px) and (max-width: 395px) {
+
+    /* *************NAVLINKS************* */
+    .base-links-container {
+        height: 245px;
+    }
+
+    .links-container {
+        padding: unset;
+        position: unset;
+        z-index: unset;
+        padding-top: 100px;
+        text-align: center;
+        display: block;
+    }
+
+    .links-container div {
+        margin: 0px 20px 0px 20px;
+    }
+
+    .links-container div a {
+        font-size: 1rem;
+    }
+
+    /* ................RELATIVE INTRO ABSOLUTE...................... */
+    .base-main-container {
+        height: 450px;
+    }
+
+    .base-main {
+        top: -175px;
+    }
+
+    .main-circle {
+        height: 360px;
+        width: 360px;
+        padding-top: 75px;
+    }
+
+    .circle-heading {
+        width: 325px;
+    }
+
+    .circle-heading h6 {
+        font-size: 0.8rem;
+    }
+
+    .circle-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .circle-para {
+        width: 280px;
+        font-size: 0.9rem;
+    }
+
+    .main-extended {
+        width: 370px;
+    }
+
+    /* ................ABOUT ME.................. */
+    .base-about {
+        width: 370px;
+    }
+
+    .base-about-container {
+        padding-top: 30px;
+    }
+
+    .about-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-content .row .col-2 {
+        width: 105px;
+    }
+
+    .about-content .row .col-1 {
+        display: none;
+    }
+
+    .about-content .row .col-9 {
+        width: 230px;
+    }
+
+    .about-content-note-text h5 {
+        font-size: 0.9rem;
+    }
+
+    .about-content-intro-text {
+        font-size: 0.9rem;
+    }
+
+    .about-content-intro-signature img {
+        width: 130px;
+    }
+
+    .about-graphics-one i {
+        left: 0px;
+        font-size: 7rem;
+        top: -30px;
+    }
+
+    /* ..................RESUME.................... */
+
+    .base-resume-container {
+        padding-bottom: 40px;
+    }
+
+    .base-resume {
+        width: 370px;
+    }
+
+    .resume-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .resume-content .row .col-2 {
+        width: 100%;
+    }
+
+    .resume-content .row .col-2 .row .col-12 {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .resume-mid {
+        display: none;
+    }
+
+    .resume-content .row .col-9 {
+        width: 100%;
+    }
+
+    .resume-content-note-text h5 {
+        font-size: 0.9rem;
+    }
+
+    .resume-content-note-text {
+        font-size: 0.9rem;
+    }
+
+    .resume-content-intro-text {
+        font-size: 0.9rem;
+    }
+
+    .resume-content-skills-heading h3 {
+        font-size: 1.2rem;
+    }
+
+    .resume-content-skills-text h5 {
+        font-size: 1rem;
+    }
+
+    .resume-content-skills-percent {
+        font-size: 1rem;
+    }
+
+    .resume-content-skills-text .row .col-3 {
+        width: 120px;
+    }
+
+    .resume-content-skills-text .row .col-7 {
+        width: 200px;
+    }
+
+    .resume-content-skills-text .row .col-1 {
+        width: auto;
+        padding-left: 12px;
+    }
+
+    .resume-content-skills-dot {
+        margin: unset;
+    }
+
+    .resume-content-general-text-left {
+        width: 100%;
+    }
+
+    .resume-content-general-text-right {
+        width: 100%;
+    }
+
+    .resume-content-general-text h6 {
+        font-size: 0.8rem;
+    }
+
+    .resume-content-general-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .resume-content-general-text h5 {
+        font-size: 1rem;
+    }
+
+    .resume-download-button button {
+        width: 170px;
+    }
+
+    .resume-graphics-one i {
+        right: 0px;
+        font-size: 7rem;
+        top: -60px;
+    }
+
+    /* ..................PROJECTS.................... */
+
+    .base-projects-container {
+        padding-bottom: 30px;
+    }
+
+    .base-projects {
+        width: 370px;
+    }
+
+    .projects-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .projects-content .row .col-2 {
+        width: 105px;
+    }
+
+    .projects-content .row .col-1 {
+        display: none;
+    }
+
+    .projects-content .row .col-9 {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .projects-showcase {
+        width: 370px;
+    }
+
+    .projects-showcase-indiv-proj {
+        margin-top: 25px !important;
+    }
+
+    .projects-showcase-thumbnail-img img {
+        width: 325px;
+    }
+
+    .projects-showcase-thumbnail-text h5 {
+        font-size: 1.2rem;
+    }
+
+    .projects-showcase-thumbnail-text h6 {
+        font-size: 0.9rem;
+    }
+
+    .projects-showcase-indiv .col-12 {
+        margin-bottom: unset;
+    }
+
+    .projects-showcase-indiv-left {
+        display: none;
+    }
+
+    .projects-showcase-indiv-mid {
+        width: 100%;
+    }
+
+    .projects-showcase-indiv-mid-resp {
+        display: block;
+    }
+
+    .projects-showcase-indiv-right {
+        display: none;
+    }
+
+    .projects-load {
+        width: 370px;
+    }
+
+    .projects-load-button button {
+        width: 170px;
+    }
+
+    .projects-graphics {
+        width: 370px;
+    }
+
+    .projects-graphics-one i {
+        left: 0px;
+        font-size: 7rem;
+        top: -80px;
+    }
+
+    /* ................BLOG.................. */
+    .base-blog-container {
+        padding-bottom: 20px;
+    }
+
+    .base-blog {
+        width: 370px;
+    }
+
+    .blog-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .blog-content-header {
+        margin-bottom: 50px;
+    }
+
+    .blog-content .row .col-2 {
+        width: 105px;
+    }
+
+    .blog-content .row .col-1 {
+        display: none;
+    }
+
+    .blog-content .row .col-9 {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .blog-thumbnail-note h5 {
+        font-size: 1rem;
+    }
+
+    .blog-thumbnail-note p {
+        font-size: 0.9rem;
+    }
+
+    .blog-thumbnail-blog h3 {
+        font-size: 1.2rem;
+    }
+
+    .blog-thumbnail-blog p {
+        font-size: 0.9rem;
+    }
+
+    .blog-thumbnail-blog a {
+        font-size: 0.9rem;
+    }
+
+    .blog-graphics-one i {
+        right: 0px;
+        font-size: 7rem;
+        top: 20px;
+    }
+
+    /* ................CONTACT.................. */
+    .base-contact {
+        width: 370px;
+    }
+
+    .contact-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact-note-icon i {
+        font-size: 1.3rem;
+    }
+
+    .contact-form-container {
+        font-size: 0.9rem;
+    }
+
+    .contact-content .row .col-2 {
+        width: 105px;
+    }
+
+    .contact-content .row .col-1 {
+        display: none;
+    }
+
+    .contact-content .row .col-9 {
+        width: 230px;
+    }
+
+    /* ................COPYRIGHT.................. */
+
+    .base-copyright {
+        padding-top: 20px;
+    }
+
+    .copyright-content {
+        width: 370px;
+    }
+
+    .copyright-content p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* *************NAVLINKS************* */
+    .base-links-container {
+        height: 200px;
+    }
+
+    .links-container {
+        padding: unset;
+        position: unset;
+        z-index: unset;
+        padding-top: 15px;
+        text-align: center;
+        display: block;
+    }
+
+    .links-container div {
+        margin: 0px 20px 0px 20px;
+    }
+
+    .links-container div a {
+        font-size: 1rem;
+    }
+
+    /* ................RELATIVE INTRO ABSOLUTE...................... */
+    .base-main-container {
+        height: 400px;
+    }
+
+    .base-main {
+        top: -140px;
+    }
+
+    .main-circle {
+        height: 290px;
+        width: 290px;
+        padding-top: 50px;
+    }
+
+    .circle-heading {
+        width: 250px;
+    }
+
+    .circle-heading h6 {
+        font-size: 0.8rem;
+    }
+
+    .circle-heading h1 {
+        font-size: 2rem;
+    }
+
+    .circle-para {
+        width: 235px;
+        font-size: 0.71rem;
+    }
+
+    .main-extended {
+        width: 95%;
+    }
+
+    .main-extended h6 {
+        font-size: 0.7rem;
+    }
+
+    .main-extended h4 {
+        font-size: 1.2rem;
+    }
+
+    /* ................ABOUT ME.................. */
+    .base-about {
+        width: 95%;
+    }
+
+    .base-about-container {
+        padding-top: 30px;
+    }
+
+    .about-heading h1 {
+        font-size: 2rem;
+    }
+
+    .about-content .row .col-2 {
+        width: 100%;
+    }
+
+    .about-content .row .col-2 .row .col-12 {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .about-content .row .col-1 {
+        display: none;
+    }
+
+    .about-content .row .col-9 {
+        width: 100%;
+    }
+
+    .about-content-note-text h5 {
+        font-size: 0.71rem;
+    }
+
+    .about-content-intro-text {
+        font-size: 0.71rem;
+    }
+
+    .about-content-intro-signature img {
+        display: none;
+    }
+
+    .about-graphics-one i {
+        left: 0px;
+        font-size: 4rem;
+        top: 15px;
+    }
+
+    /* ..................RESUME.................... */
+
+    .base-resume-container {
+        padding-bottom: 40px;
+    }
+
+    .base-resume {
+        width: 95%;
+    }
+
+    .resume-heading h1 {
+        font-size: 2rem;
+    }
+
+    .resume-content .row .col-2 {
+        width: 100%;
+    }
+
+    .resume-content .row .col-2 .row .col-12 {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .resume-mid {
+        display: none;
+    }
+
+    .resume-content .row .col-9 {
+        width: 100%;
+    }
+
+    .resume-content-note-text h5 {
+        font-size: 0.71rem;
+    }
+
+    .resume-content-note-text {
+        font-size: 0.71rem;
+    }
+
+    .resume-content-intro-text {
+        font-size: 0.71rem;
+    }
+
+    .resume-content-skills-heading h3 {
+        font-size: 1.1rem;
+    }
+
+    .resume-content-skills-text h5 {
+        font-size: 0.9rem;
+    }
+
+    .resume-content-skills-percent {
+        font-size: 0.9rem;
+    }
+
+    .resume-content-skills-text .row .col-3 {
+        width: 120px;
+    }
+
+    .resume-content-skills-text .row .col-7 {
+        width: 200px;
+    }
+
+    .resume-content-skills-text .row .col-1 {
+        width: auto;
+        padding-left: 12px;
+    }
+
+    .resume-content-skills-dot {
+        margin: unset;
+    }
+
+    .resume-content-general-text-left {
+        width: 100%;
+    }
+
+    .resume-content-general-text-right {
+        width: 100%;
+    }
+
+    .resume-content-general-text h6 {
+        font-size: 0.9rem;
+    }
+
+    .resume-content-general-text h3 {
+        font-size: 1.1rem;
+    }
+
+    .resume-content-general-text h5 {
+        font-size: 0.9rem;
+    }
+
+    .resume-download-button button {
+        font-size: 0.7rem;
+        width: 120px;
+    }
+
+    .resume-graphics-one i {
+        right: 0px;
+        font-size: 4rem;
+        top: -20px;
+    }
+
+    /* ..................PROJECTS.................... */
+
+    .base-projects-container {
+        padding-bottom: 30px;
+    }
+
+    .base-projects {
+        width: 95%;
+    }
+
+    .projects-heading h1 {
+        font-size: 2rem;
+    }
+
+    .projects-content .row .col-2 {
+        width: 100%;
+    }
+
+    .projects-content .row .col-1 {
+        display: none;
+    }
+
+    .projects-content .row .col-9 {
+        width: 100%;
+        font-size: 0.71rem;
+    }
+
+    .projects-showcase {
+        width: 290px;
+    }
+
+    .projects-showcase-indiv-proj {
+        margin-top: 25px !important;
+    }
+
+    .projects-showcase-thumbnail-img img {
+        width: 250px;
+    }
+
+    .projects-showcase-thumbnail-text h5 {
+        font-size: 1.1rem;
+    }
+
+    .projects-showcase-thumbnail-text h6 {
+        font-size: 0.71rem;
+    }
+
+    .projects-showcase-indiv .col-12 {
+        margin-bottom: unset;
+    }
+
+    .projects-showcase-indiv-left {
+        display: none;
+    }
+
+    .projects-showcase-indiv-mid {
+        width: 100%;
+    }
+
+    .projects-showcase-indiv-mid-resp {
+        display: block;
+    }
+
+    .projects-showcase-indiv-mid-resp .row .col-6 {
+        width: 100%;
+    }
+
+    .projects-showcase-indiv-right {
+        display: none;
+    }
+
+    .projects-load {
+        width: 95%;
+    }
+
+    .projects-load-button button {
+        font-size: 0.7rem;
+        width: 120px;
+    }
+
+    .projects-graphics {
+        width: 95%;
+    }
+
+    .projects-graphics-one i {
+        left: 0px;
+        font-size: 4rem;
+        top: -30px;
+    }
+
+    /* ................BLOG.................. */
+    .base-blog-container {
+        padding-bottom: 20px;
+    }
+
+    .base-blog {
+        width: 95%;
+    }
+
+    .blog-heading h1 {
+        font-size: 2rem;
+    }
+
+    .blog-content-header {
+        margin-bottom: 50px;
+    }
+
+    .blog-content .row .col-2 {
+        width: 100%;
+    }
+
+    .blog-content .row .col-1 {
+        display: none;
+    }
+
+    .blog-content .row .col-9 {
+        width: 100%;
+        font-size: 0.71rem;
+    }
+
+    .blog-thumbnail-note h5 {
+        font-size: 0.8rem;
+    }
+
+    .blog-thumbnail-note p {
+        font-size: 0.71rem;
+    }
+
+    .blog-thumbnail-blog h3 {
+        font-size: 1rem;
+    }
+
+    .blog-thumbnail-blog p {
+        font-size: 0.71rem;
+    }
+
+    .blog-thumbnail-blog a {
+        font-size: 0.71rem;
+    }
+
+    .blog-graphics-one i {
+        right: 0px;
+        font-size: 4rem;
+        top: 20px;
+    }
+
+    /* ................CONTACT.................. */
+    .base-contact {
+        width: 95%;
+    }
+
+    .contact-heading h1 {
+        font-size: 2rem;
+    }
+
+    .contact-note-icon i {
+        font-size: 1rem;
+    }
+
+    .contact-form-container {
+        font-size: 0.71rem;
+    }
+
+    .contact-content .row .col-2 {
+        width: 100%;
+    }
+
+    .contact-content .row .col-2 .row .col-12 {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .contact-content .row .col-1 {
+        display: none;
+    }
+
+    .contact-content .row .col-9 {
+        width: 100%;
+    }
+
+    .contact-form-container button {
+        font-size: 0.7rem;
+    }
+
+    /* ................COPYRIGHT.................. */
+
+    .base-copyright {
+        padding-top: 20px;
+    }
+
+    .copyright-content {
+        width: 95%;
+    }
+
+    .copyright-content p {
+        font-size: 0.71rem;
+    }
+}
+
+@media (max-width: 260px) {
+
+    /* ................NAVLINKS...................... */
+    .base-links-container {
+        height: 160px;
+    }
+
+    /* ................RELATIVE INTRO ABSOLUTE...................... */
+    .base-main-container {
+        height: 320px;
+    }
+
+    .base-main {
+        top: -100px;
+    }
+
+    .main-circle {
+        height: 180px;
+        width: 180px;
+        padding-top: 40px;
+    }
+
+    .circle-heading {
+        width: 180px;
+        margin-bottom: 0px;
+    }
+
+    .circle-heading h6 {
+        font-size: 0.6rem;
+    }
+
+    .circle-heading h1 {
+        font-size: 1.3rem;
+    }
+
+    .circle-para {
+        width: 145px;
+        font-size: 0.5rem;
+    }
+
+    .main-extended h6 {
+        font-size: 0.3rem;
+    }
+
+    .main-extended h4 {
+        font-size: 0.6rem;
+    }
+
+    /* ................ABOUT ME.................. */
+
+    .about-heading h1 {
+        font-size: 1.3rem;
+    }
+
+    .about-content-note-text h5 {
+        font-size: 0.5rem;
+    }
+
+    .about-content-intro-text {
+        font-size: 0.5rem;
+    }
+
+    .about-content-intro-signature img {
+        display: none;
+    }
+
+    /* ..................RESUME.................... */
+    .resume-heading h1 {
+        font-size: 1.3rem;
+    }
+
+    .resume-content-note-text h5 {
+        font-size: 0.5rem;
+    }
+
+    .resume-content-note-text {
+        font-size: 0.5rem;
+    }
+
+    .resume-content-intro-text {
+        font-size: 0.5rem;
+    }
+
+    .resume-content-skills-heading h3 {
+        font-size: 0.9rem;
+    }
+
+    .resume-content-skills-text h5 {
+        font-size: 0.6rem;
+    }
+
+    .resume-content-skills-percent {
+        font-size: 0.6rem;
+    }
+
+    .resume-content-skills-dot {
+        height: 8px;
+        width: 8px;
+    }
+
+    .resume-content-general-text h6 {
+        font-size: 0.5rem;
+    }
+
+    .resume-content-general-text h3 {
+        font-size: 0.9rem;
+    }
+
+    .resume-content-general-text h5 {
+        font-size: 0.7rem;
+    }
+
+    /* *************PROJECTS************* */
+
+    .projects-content .row .col-9 {
+        font-size: 0.5rem;
+    }
+
+    .projects-heading h1 {
+        font-size: 1.3rem;
+    }
+
+    .projects-showcase {
+        width: 175px;
+    }
+
+    .projects-showcase-thumbnail-img img {
+        width: 140px;
+    }
+
+    .projects-showcase-thumbnail-text h5 {
+        font-size: 0.9rem;
+    }
+
+    .projects-showcase-thumbnail-text h6 {
+        font-size: 0.5rem;
+    }
+
+    /* ................BLOG.................. */
+
+    .blog-heading h1 {
+        font-size: 1.3rem;
+    }
+
+    .blog-content .row .col-9 {
+        font-size: 0.5rem;
+    }
+
+    .blog-content-indiv .col-3 {
+        display: none;
+    }
+
+    .blog-content-indiv .col-8 {
+        width: 100%;
+    }
+
+    .blog-thumbnail-blog h3 {
+        font-size: 0.9rem;
+    }
+
+    .blog-thumbnail-blog p {
+        font-size: 0.5rem;
+    }
+
+    .blog-thumbnail-blog a {
+        font-size: 0.5rem;
+    }
+
+    /* ................CONTACT.................. */
+
+    .contact-heading h1 {
+        font-size: 1.3rem;
+    }
+
+    .contact-note-icon i {
+        font-size: 0.8rem;
+    }
+
+    .contact-form-container {
+        font-size: 0.5rem;
+    }
+
+    /* ................COPYRIGHT.................. */
+
+    .copyright-content p {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 170px) {
+    body {
+        zoom: 70%;
+    }
+}
+
+@media (max-width: 135px) {
+    body {
+        zoom: 40%;
+    }
+}
+
+@media (max-width: 70px) {
+    body {
+        zoom: 20%;
+    }
+}

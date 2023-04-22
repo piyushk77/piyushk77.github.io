@@ -1,0 +1,13 @@
+************* TO BE DONE *****************
+1) divisions:
+	a) name, intro, no picture
+	b) about me
+	c) technologies or resume
+	d) my projects
+	e) my blog (may be optional)
+	f) contact me (include picture)
+	g) footer (copyright)
+2) use physics as the theme for side part graphics.
+3) dark-light mode convertor. (may be optional)
+4) central large circle for intro section (can be animated).
+5) toggle nav bar menue for responsiveness (contain general social links).
