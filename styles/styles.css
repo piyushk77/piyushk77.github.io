@@ -359,6 +359,12 @@ a {
     padding: 0px !important;
 }
 
+.resume-content-general-text-right {
+
+    display: none;
+    /* //////////////////////////////////////////      TO BE REMOVED    //////////////////////////////////////////////////// */
+}
+
 .resume-education-text {
     margin: 10px 0px;
 }
@@ -441,6 +447,10 @@ a {
 /* ..................PROJECTS.................... */
 
 .base-projects-container {
+
+    display: none;
+    /* ////////////////////////////////////////////////////////    TO BE REMOVED    ///////////////////////////////////////// */
+
     background-color: #171e28;
     overflow: hidden;
     padding: 70px 5px 70px 5px;
@@ -616,6 +626,10 @@ a {
 /* ................BLOG.................. */
 
 .base-blog-container {
+    
+    display: none;
+    /* ///////////////////////////////////////////////////////////       TO BE REMOVED   ////////////////////////////////////////// */
+
     background-color: #222a35;
     padding: 70px 5px 70px 5px;
 }
